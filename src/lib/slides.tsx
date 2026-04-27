@@ -224,7 +224,7 @@ function Slide02Overview() {
           을 최소 6개월(28주) 일정으로 구축한 뒤,{" "}
           <strong className="text-white">운영·개선 단계로 자연스럽게 전환</strong>
           되어 AXE 외부 시황 연계와 후속 자동화 과제까지 차차 확장되는 장기
-          파트너십 구조를 권장드립니다.
+          파트너십 구조입니다.
         </p>
       </Card>
     </SlideShell>
@@ -238,7 +238,7 @@ function Slide03HowWeWork() {
     {
       no: "01",
       title: "단계로 검증하며 갑니다",
-      desc: "0단계 진단을 먼저 하고 결과를 본 뒤 본 구축을 결정합니다. 누보의 위험을 가장 낮추는 방식입니다.",
+      desc: "0~3단계를 한 번에 묶어 계약하되, 각 단계 산출물 검수·승인을 조건으로 진행합니다. 누보의 위험과 일정 변동을 동시에 낮추는 방식입니다.",
     },
     {
       no: "02",
@@ -580,7 +580,7 @@ function Slide08Pricing() {
   return (
     <SlideShell
       title="제안 금액"
-      subtitle="제출용 표준 견적이며, 0단계 진단 결과에 따라 최소 1억까지 범위 안에서 조정 가능합니다. 부가세는 별도입니다."
+      subtitle="제출용 표준 견적이며, 0~3단계를 묶은 1차 합산 계약 기준입니다. 단계별 산출물 검수에 따라 최소 1억 ~ 1.55억 범위 안에서 변동되며 부가세는 별도입니다."
     >
       <div className="rounded-2xl border border-line overflow-hidden bg-paper mb-6">
         <div className="overflow-x-auto">
@@ -700,7 +700,7 @@ function Slide10Contract() {
   return (
     <SlideShell
       title="권장 계약 방식"
-      subtitle="데이터 구조와 실제 업무 흐름을 정확히 반영하기 위해, 단계형 계약을 권장합니다."
+      subtitle="0~3단계를 묶은 1차 합산 계약을 권장합니다. 일정과 범위, 책임 소재를 가장 안정적으로 확보하는 방식입니다."
     >
       <div className="grid md:grid-cols-3 gap-4">
         <Card tone="paper" className="ring-2 ring-brand/40 relative">
@@ -708,32 +708,36 @@ function Slide10Contract() {
             권장
           </div>
           <Tag tone="brand">A안</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">
-            0단계 우선 계약
-          </h3>
+          <h3 className="mt-3 text-lg font-bold text-ink">1차 합산 계약</h3>
           <div className="mono text-xl font-extrabold text-brand-deep mt-2">
-            리스크 최소화
+            1.0억 ~ 1.55억
+          </div>
+          <div className="text-[11px] text-ink-mute mt-0.5">
+            범위 내 변동 · 부가세 별도
           </div>
           <ul className="mt-4 pt-4 border-t border-line space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 데이터 구조·범위·KPI를 먼저 확정</li>
-            <li>· 진단 산출물 승인 후 1~3단계 본 구축 전환</li>
-            <li>· 누보·플럭 모두 범위 오해를 줄일 수 있음</li>
+            <li>· 0~3단계를 한 번에 계약</li>
+            <li>· 단계별 검수·중간 산출물 승인을 조건으로 진행</li>
+            <li>· 일정·인력·책임 소재 가장 안정적</li>
+            <li>· 본 구축 전환 단절 없이 직진</li>
           </ul>
         </Card>
 
         <Card tone="paper">
           <Tag tone="ink">B안</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">1차 합산 계약</h3>
+          <h3 className="mt-3 text-lg font-bold text-ink">
+            0단계 분리 계약
+          </h3>
           <div className="mono text-xl font-extrabold text-ink mt-2">
-            1.0억 ~ 1.55억
+            보수형 옵션
           </div>
           <div className="text-[11px] text-ink-mute mt-0.5">
-            진단 후 범위 내 확정
+            중도 종료 가능성 존재
           </div>
           <ul className="mt-4 pt-4 border-t border-line space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 0~3단계를 한 번에 계약</li>
-            <li>· 단계별 검수·중간 산출물 승인을 조건으로 진행</li>
-            <li>· 일정 확보는 쉽지만 범위 조정 유연성은 줄어듦</li>
+            <li>· 0단계 진단(1,000만~1,500만원)을 먼저 계약</li>
+            <li>· 결과 승인 후 1~3단계 본 구축 재계약</li>
+            <li>· 본 구축 전환 시 일정·인력 재확보 필요</li>
           </ul>
         </Card>
 
@@ -858,13 +862,13 @@ function Slide13NextSteps() {
     },
     {
       n: "03",
-      title: "0단계 진단 계약",
-      desc: "0단계 진단 및 상세 설계 계약(1,500만원)을 체결합니다.",
+      title: "1차 합산 계약 체결",
+      desc: "0~3단계를 묶어 1.0억~1.55억 범위로 한 번에 계약합니다.",
     },
     {
       n: "04",
-      title: "본 구축 전환",
-      desc: "0단계 산출물 승인 후 1~3단계 본 구축으로 전환합니다.",
+      title: "단계별 검수 진행",
+      desc: "각 단계 산출물 승인을 조건으로 본 구축을 직진합니다.",
     },
     {
       n: "05",
@@ -893,12 +897,10 @@ function Slide13NextSteps() {
 
       <Card tone="ink">
         <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
-          <strong className="text-white">권장 시작안 — </strong>
-          0단계 진단 및 상세 설계{" "}
-          <span className="mono">1,000만~1,500만원</span> 계약 후, 결과 승인 시
-          1차 핵심 구축{" "}
-          <span className="mono">최소 1.0억 ~ 1.55억</span>으로 전환하는 방식이
-          위험을 가장 낮춥니다. 정확한 금액은 진단 결과로 확정됩니다.
+          0~3단계를 묶은 1차 합산 계약{" "}
+          <span className="mono">최소 1.0억 ~ 1.55억</span>으로 시작하며, 각 단계
+          산출물의 검수와 승인을 조건으로 다음 단계로 진행합니다. 정확한 금액은
+          1차 구축 범위 확정 시점에 확정됩니다.
         </p>
       </Card>
     </SlideShell>
@@ -957,11 +959,10 @@ function Slide14Summary() {
           <Tag tone="brand">진행 구조</Tag>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft leading-relaxed">
             <li>
-              · <strong className="text-ink">0단계 진단(4주)</strong> 우선 계약
-              권장
+              · <strong className="text-ink">0~3단계 1차 합산 계약</strong> 권장
             </li>
-            <li>· 진단 결과 승인 후 1~3단계 본 구축 전환</li>
-            <li>· 단계별 검수 통과 후 다음 단계 진행</li>
+            <li>· 단계별 검수·산출물 승인을 조건으로 직진</li>
+            <li>· 0단계 진단(4주)부터 운영 전환까지 단절 없음</li>
             <li>· 1차 종료 후 외부 시황·후속 과제 별도 검토</li>
           </ul>
         </Card>
@@ -995,7 +996,7 @@ function SlidePlans() {
           <div className="mt-5 mono text-2xl font-extrabold text-ink tracking-tight">
             1.0억 ~ 1.55억
           </div>
-          <p className="text-xs text-ink-mute mt-1">변동 가능 · 진단 후 확정</p>
+          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-ink-mute mb-1.5">
               누보 추가 부담
@@ -1018,7 +1019,7 @@ function SlidePlans() {
           <div className="mt-5 mono text-2xl font-extrabold text-brand-deep tracking-tight">
             1.0억 ~ 1.55억
           </div>
-          <p className="text-xs text-ink-mute mt-1">변동 가능 · 진단 후 확정</p>
+          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-brand mb-1.5">
               누보 추가 부담
@@ -1039,7 +1040,7 @@ function SlidePlans() {
           <div className="mt-5 mono text-2xl font-extrabold text-ink tracking-tight">
             1.0억 ~ 1.55억
           </div>
-          <p className="text-xs text-ink-mute mt-1">변동 가능 · 진단 후 확정</p>
+          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-ink-mute mb-1.5">
               누보 추가 부담
@@ -1061,8 +1062,8 @@ function SlidePlans() {
         <p className="mt-3 text-sm text-ink leading-relaxed">
           본 제안서의 개발 비용{" "}
           <strong className="text-brand-deep">최소 1억 ~ 표준 1.55억</strong>은
-          0단계 진단 결과에 따라 그 범위 안에서 변동되며, 1·2·3안 어느 쪽을
-          선택하셔도 동일하게 적용됩니다. 안별 차이는{" "}
+          0~3단계를 묶은 1차 합산 계약 기준이며, 1·2·3안 어느 쪽을 선택하셔도
+          동일하게 적용됩니다. 안별 차이는{" "}
           <strong className="text-ink">누보 측 사무 공간과 상주 부대 실비</strong>
           에서만 발생합니다.
         </p>
@@ -1076,43 +1077,298 @@ function SlidePlans() {
         </p>
       </Card>
 
-      <h3 className="text-base font-bold text-ink mb-1">권장 계약 방식</h3>
-      <p className="text-sm text-ink-soft mb-4">
-        위 1·2·3안 인력 운용을 어떤 계약 구조로 묶을지에 대한 권장안입니다.
-      </p>
-      <div className="grid md:grid-cols-2 gap-4">
-        <Card tone="paper" className="ring-2 ring-brand/40 relative">
-          <div className="absolute -top-2.5 right-5 px-3 py-1 rounded-full bg-brand text-white text-[10px] font-extrabold tracking-wider">
-            권장
+      <Card tone="soft" className="mt-3">
+        <p className="text-sm text-ink-soft leading-relaxed">
+          <strong className="text-ink">참고 — </strong>
+          장기 운영을 고려해 누보 내부에 담당 인력을 두는 인하우스 연계 형태도
+          별도로 협의 가능합니다 (겸직·역할·KPI·거주 조건은 별도 합의).
+        </p>
+      </Card>
+    </SlideShell>
+  );
+}
+
+/* ================== 신규 — 단계별 일정·산출물·금액 (05+06+07 통합) ================== */
+
+function SlideComboPhasePricing() {
+  const phases = [
+    {
+      n: "0",
+      title: "진단 및 상세 설계",
+      period: "최소 4주",
+      outputs: "데이터 진단서, KPI 정의서, 코드 매핑 계획, 구축 명세서",
+      review: "범위 확정 · 다음 단계 승인",
+      cost: "10,000,000 ~ 15,000,000",
+      width: 14,
+    },
+    {
+      n: "1",
+      title: "데이터 기반 구축",
+      period: "최소 8주",
+      outputs: "분석용 데이터마트, 기준 테이블, 기본 현황 화면",
+      review: "데이터 정합성 · 조회 정확성 검수",
+      cost: "40,000,000 ~ 60,000,000",
+      width: 28,
+    },
+    {
+      n: "2",
+      title: "의사결정 MVP 구현",
+      period: "최소 10주",
+      outputs: "배분 추천 화면, 손익 비교, 설명 기능, 승인 흐름 초안",
+      review: "회의 활용성 · 추천 결과 검토",
+      cost: "35,000,000 ~ 55,000,000",
+      width: 36,
+    },
+    {
+      n: "3",
+      title: "안정화 및 전환",
+      period: "최소 6주",
+      outputs: "권한 · 감사 로그 · 운영 문서 · 교육 자료",
+      review: "운영 준비 완료 · 종료 승인",
+      cost: "15,000,000 ~ 25,000,000",
+      width: 22,
+    },
+  ];
+  return (
+    <SlideShell
+      title="단계별 일정 · 산출물 · 금액"
+      subtitle="0~3단계를 묶은 1차 합산 계약 기준입니다. 단계마다 검수를 통과해야 다음 단계로 진행되는 구조라 일정과 위험 통제가 안정적입니다."
+    >
+      <h3 className="text-base font-bold text-ink mb-3">전체 흐름 (최소 28주 / 6개월 이상)</h3>
+      <div className="rounded-2xl border border-line bg-paper-soft p-5 mb-6">
+        <div className="flex gap-2 mb-3">
+          {phases.map((p, i) => (
+            <div
+              key={p.n}
+              style={{ flex: p.width }}
+              className={`h-14 rounded-lg flex items-center justify-center text-white font-bold text-sm relative ${
+                i % 2 === 0 ? "bg-brand-deep" : "bg-brand"
+              }`}
+            >
+              <div className="text-center">
+                <div className="text-[10px] tracking-wider opacity-80 leading-none">
+                  {p.n}단계
+                </div>
+                <div className="mono text-xs font-extrabold mt-0.5">
+                  {p.period}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="flex gap-2 text-[11px] text-ink-soft font-medium">
+          {phases.map((p) => (
+            <div
+              key={p.n}
+              style={{ flex: p.width }}
+              className="text-center truncate"
+            >
+              {p.title}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="rounded-2xl border border-line overflow-hidden bg-paper">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm min-w-[820px]">
+            <thead className="bg-brand-soft">
+              <tr>
+                <th className="text-left px-4 py-3 text-[11px] font-extrabold tracking-wider text-brand-deep">
+                  단계
+                </th>
+                <th className="text-left px-4 py-3 text-[11px] font-extrabold tracking-wider text-brand-deep">
+                  기간
+                </th>
+                <th className="text-left px-4 py-3 text-[11px] font-extrabold tracking-wider text-brand-deep">
+                  주요 산출물
+                </th>
+                <th className="text-left px-4 py-3 text-[11px] font-extrabold tracking-wider text-brand-deep">
+                  검수 포인트
+                </th>
+                <th className="text-right px-4 py-3 text-[11px] font-extrabold tracking-wider text-brand-deep">
+                  금액
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {phases.map((p, i) => (
+                <tr
+                  key={p.n}
+                  className={`border-t border-line ${
+                    i % 2 === 1 ? "bg-paper-soft/40" : ""
+                  }`}
+                >
+                  <td className="px-4 py-3 font-bold text-ink whitespace-nowrap">
+                    {p.n}단계 — {p.title}
+                  </td>
+                  <td className="px-4 py-3 text-ink mono whitespace-nowrap">
+                    {p.period}
+                  </td>
+                  <td className="px-4 py-3 text-ink-soft">{p.outputs}</td>
+                  <td className="px-4 py-3 text-ink-soft">{p.review}</td>
+                  <td className="px-4 py-3 text-right text-ink mono font-bold whitespace-nowrap">
+                    {p.cost}원
+                  </td>
+                </tr>
+              ))}
+              <tr className="border-t-2 border-brand bg-brand-soft">
+                <td className="px-4 py-4 font-extrabold text-brand-deep">
+                  1차 합산 계약 합계
+                </td>
+                <td className="px-4 py-4 text-brand-deep mono font-bold whitespace-nowrap">
+                  최소 28주
+                </td>
+                <td
+                  className="px-4 py-4 text-brand-deep text-xs"
+                  colSpan={2}
+                >
+                  단계별 검수 통과 후 다음 단계로 진입
+                </td>
+                <td className="px-4 py-4 text-right text-brand-deep mono font-extrabold whitespace-nowrap">
+                  <div className="text-base">100,000,000 ~ 155,000,000원</div>
+                  <div className="text-[10px] font-bold tracking-wider mt-0.5">
+                    최소 1.0억 ~ 표준 1.55억 · 부가세 별도
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </SlideShell>
+  );
+}
+
+/* ================== 신규 — 1차 이후 로드맵 ================== */
+
+function SlideRoadmap() {
+  return (
+    <SlideShell
+      title="1차 이후 — 차차 확장되는 장기 파트너십"
+      subtitle="1차 28주 / 1.55억은 시작점입니다. 이후 운영 안정화와 외부 시황 연계, 차기 프로젝트로 자연스럽게 확장됩니다."
+    >
+      <div className="grid md:grid-cols-3 gap-4 mb-6">
+        <Card tone="brand">
+          <div className="text-[10px] tracking-[0.18em] font-extrabold text-brand mb-2">
+            STAGE 1 — 진행형
           </div>
-          <Tag tone="brand">A안</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">1차 합산 계약</h3>
-          <div className="mono text-xl font-extrabold text-brand-deep mt-2">
-            1.0억 ~ 1.55억
+          <h3 className="text-lg font-bold text-ink leading-tight">
+            운영 · 지속 개선
+          </h3>
+          <p className="text-sm text-ink-soft mt-2 leading-relaxed">
+            룰 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원
+          </p>
+          <div className="mt-4 pt-3 border-t border-brand/20 text-xs">
+            <div className="text-ink-mute font-bold mb-1">월 운영비</div>
+            <div className="text-ink mono font-bold">
+              월 200만 ~ 1,200만 (강도별 별도 협의)
+            </div>
           </div>
-          <div className="text-[11px] text-ink-mute mt-0.5">
-            진단 후 범위 내 확정
-          </div>
-          <ul className="mt-4 pt-4 border-t border-line space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 0~3단계를 한 번에 계약</li>
-            <li>· 단계별 검수·중간 산출물 승인을 조건으로 진행</li>
-            <li>· 일정 확보가 가장 안정적</li>
-          </ul>
         </Card>
 
         <Card tone="paper">
-          <Tag tone="warn">B안</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">
-            인하우스 연계형
-          </h3>
-          <div className="mono text-xl font-extrabold text-ink mt-2">
-            별도 협의
+          <div className="text-[10px] tracking-[0.18em] font-extrabold text-ink-mute mb-2">
+            STAGE 2 — 옵션
           </div>
-          <div className="text-[11px] text-ink-mute mt-0.5">장기 운영 고려</div>
-          <ul className="mt-4 pt-4 border-t border-line space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 누보 내부 담당자 1명 + 외부 구축 인력 병행</li>
-            <li>· 운영 지속성·종속 위험 완화에 유리</li>
-            <li>· 겸직·역할·KPI·거주 조건 별도 협의</li>
+          <h3 className="text-lg font-bold text-ink leading-tight">
+            외부 시황 연계
+          </h3>
+          <p className="text-sm text-ink-soft mt-2 leading-relaxed">
+            AXE 등 국제 시황 자료, 환율·운임·정책 변수 반영, 구매 적기 시나리오
+          </p>
+          <div className="mt-4 pt-3 border-t border-line text-xs">
+            <div className="text-ink-mute font-bold mb-1">기간 / 견적</div>
+            <div className="text-ink mono font-bold">
+              4~6주 추가 / 35,000,000원
+            </div>
+          </div>
+        </Card>
+
+        <Card tone="paper">
+          <div className="text-[10px] tracking-[0.18em] font-extrabold text-ink-mute mb-2">
+            STAGE 3 — 차기 프로젝트
+          </div>
+          <h3 className="text-lg font-bold text-ink leading-tight">
+            도메인 확장
+          </h3>
+          <p className="text-sm text-ink-soft mt-2 leading-relaxed">
+            1차 안정화 후 별도 협의로 자연스럽게 확장
+          </p>
+          <ul className="mt-3 pt-3 border-t border-line text-xs text-ink-soft space-y-1.5">
+            <li>· P2. 사무 업무 자동화</li>
+            <li>· P3. 농업 · 비료 도메인 AI</li>
+            <li>· P4. AI 운영 인프라</li>
+          </ul>
+        </Card>
+      </div>
+
+      <Card tone="ink">
+        <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
+          <strong className="text-white">차차 확장 — </strong>
+          1차 종료 후 누보가 강도와 범위를 확인한 뒤 단계적으로 운영 → 외부 시황
+          → 차기 도메인 과제로 확장합니다. 모든 후속 단계는 1차 결과 검증 후
+          별도 협의입니다.
+        </p>
+      </Card>
+    </SlideShell>
+  );
+}
+
+/* ================== 신규 — 협조 + 운영 원칙 (통합) ================== */
+
+function SlideCoopPrinciples() {
+  return (
+    <SlideShell
+      title="누보 협조 사항 · 운영 원칙"
+      subtitle="안정적 진행을 위해 누보 측에서 준비해주실 사항과, 모든 안에 공통 적용되는 운영 원칙입니다."
+    >
+      <h3 className="text-base font-bold text-ink mb-3">누보 측 협조 사항</h3>
+      <div className="grid md:grid-cols-2 gap-3 mb-7">
+        <Card tone="paper">
+          <Tag tone="brand">데이터 / 시스템</Tag>
+          <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
+            <li>· 판매·구매·생산 계획·실적 샘플 데이터 (3~6개월치)</li>
+            <li>· 지역·사업부·채널 코드표 및 변경 이력</li>
+            <li>· 더존 테스트 계정 또는 시뮬레이션 환경</li>
+            <li>· 보안·반출 정책 사전 정의</li>
+          </ul>
+        </Card>
+        <Card tone="paper">
+          <Tag tone="brand">업무 / 검수</Tag>
+          <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
+            <li>· S&amp;OP 회의 보고 자료 및 판단 기준</li>
+            <li>· 내부 진행 책임자 1명 지정</li>
+            <li>· 단계별 리뷰 회의 참여자 지정</li>
+            <li>· 중간 산출물 승인 절차 정의</li>
+          </ul>
+        </Card>
+      </div>
+
+      <h3 className="text-base font-bold text-ink mb-3">공통 운영 원칙</h3>
+      <div className="grid md:grid-cols-3 gap-3">
+        <Card tone="brand">
+          <Tag tone="brand">사람 승인</Tag>
+          <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
+            <li>· 추천 결과는 사람이 승인 후 실행</li>
+            <li>· 추천 사유와 사용 데이터를 화면에 표시</li>
+            <li>· 배분·구매 판단은 비교 중심으로 제공</li>
+          </ul>
+        </Card>
+        <Card tone="brand">
+          <Tag tone="brand">소유권 이관</Tag>
+          <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
+            <li>· 소스코드·데이터 정의서·운영 매뉴얼 이관</li>
+            <li>· 관리자 계정·배포 권한 이전 가능 구조</li>
+            <li>· 종료·인력 변경 시 인수인계 의무</li>
+          </ul>
+        </Card>
+        <Card tone="warn">
+          <Tag tone="warn">비용 통제</Tag>
+          <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
+            <li>· 클라우드·API·외부 데이터 비용 상한선</li>
+            <li>· 업데이트 주기·사용량 정책 고정</li>
+            <li>· 외부 시황 연계는 1차 성과 확인 후 확장</li>
           </ul>
         </Card>
       </div>
@@ -1139,10 +1395,9 @@ function Slide15Closing() {
           <p className="mt-5 text-base sm:text-lg text-white/85 max-w-2xl leading-relaxed">
             1차 합산 계약{" "}
             <span className="mono font-bold">최소 1.0억 ~ 1.55억</span>으로
-            0~3단계를 한 번에 묶어 시작하는 방식을 권장드립니다. 단계별 검수·중간
-            산출물 승인을 조건으로 진행해 일정을 가장 안정적으로 확보하며,
-            1·2·3안 어느 쪽이든 동일하게 흘러가고 이후 운영·외부 시황·후속
-            자동화로 차차 확장됩니다.
+            0~3단계를 한 번에 시작합니다. 단계별 검수를 통과하며 다음 단계로
+            진행되는 구조라 일정 확보가 안정적이고, 1·2·3안 어느 쪽이든 동일하게
+            흘러가며 이후 운영·외부 시황·후속 자동화로 차차 확장됩니다.
           </p>
         </div>
 
@@ -1235,64 +1490,49 @@ export const slides = [
     component: Slide02Overview,
   },
   {
-    section: "02. 우리는",
-    title: "플럭은 어떻게 일합니다",
-    component: Slide03HowWeWork,
-  },
-  {
-    section: "03. 배경",
-    title: "프로젝트 배경 및 문제 정의",
+    section: "02. 배경",
+    title: "누보의 현재 상황",
     component: Slide04Background,
   },
   {
-    section: "04. 범위",
+    section: "03. 범위",
     title: "제안 범위",
     component: Slide05Scope,
   },
   {
-    section: "05. 단계",
-    title: "구축 단계 및 산출물",
-    component: Slide06Phases,
+    section: "04. 단계 · 금액",
+    title: "단계별 일정 · 산출물 · 금액",
+    component: SlideComboPhasePricing,
   },
   {
-    section: "06. 일정",
-    title: "예상 일정",
-    component: Slide07Schedule,
+    section: "05. 로드맵",
+    title: "1차 이후 로드맵",
+    component: SlideRoadmap,
   },
   {
-    section: "07. 금액",
-    title: "제안 금액",
-    component: Slide08Pricing,
-  },
-  {
-    section: "08. 진행 방식",
-    title: "1·2·3안 인력 운용 + 권장 계약",
+    section: "06. 진행 방식",
+    title: "1·2·3안 인력 운용",
     component: SlidePlans,
   },
   {
-    section: "09. 옵션",
+    section: "07. 옵션",
     title: "추가 옵션 및 운영비",
     component: Slide09Options,
   },
   {
-    section: "10. 협조",
-    title: "누보 협조 사항",
-    component: Slide11Cooperation,
+    section: "08. 협조 · 원칙",
+    title: "누보 협조 사항 · 운영 원칙",
+    component: SlideCoopPrinciples,
   },
   {
-    section: "11. 원칙",
-    title: "리스크 대응 및 운영 원칙",
-    component: Slide12Risk,
+    section: "09. 우리는",
+    title: "플럭은 어떻게 일합니다",
+    component: Slide03HowWeWork,
   },
   {
-    section: "12. 다음 단계",
+    section: "10. 다음 단계",
     title: "다음 단계 제안",
     component: Slide13NextSteps,
-  },
-  {
-    section: "13. 정리",
-    title: "제안 한눈에 보기",
-    component: Slide14Summary,
   },
   {
     section: "맺음",
