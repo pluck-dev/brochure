@@ -140,8 +140,32 @@ function Slide01Cover() {
             <div className="text-[10px] tracking-[0.18em] font-extrabold text-ink-mute w-16 mt-0.5">
               CONTACT
             </div>
-            <div className="text-ink-soft mono text-[13px]">
-              space.pluck@gmail.com
+            <div className="flex items-center gap-2 flex-wrap">
+              <a
+                href="mailto:hello@pluck.co.kr"
+                className="text-ink-soft mono text-[13px] hover:text-ink transition-colors"
+              >
+                hello@pluck.co.kr
+              </a>
+              <a
+                href="mailto:hello@pluck.co.kr"
+                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-ink text-paper text-[11px] font-bold tracking-wide hover:bg-ink/85 transition-colors"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-3 h-3"
+                >
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="m3 7 9 6 9-6" />
+                </svg>
+                메일 보내기
+              </a>
             </div>
           </div>
         </div>
@@ -985,10 +1009,7 @@ function SlidePlans() {
           </ul>
         </Card>
 
-        <Card tone="paper" className="ring-2 ring-brand/40 relative">
-          <div className="absolute -top-2.5 right-5 px-3 py-1 rounded-full bg-brand text-white text-[10px] font-extrabold tracking-wider">
-            표준 / 추천
-          </div>
+        <Card tone="paper">
           <Tag tone="brand">2안</Tag>
           <h3 className="mt-3 text-lg font-bold text-ink">
             1인 상주 + 1인 재택
@@ -1116,12 +1137,12 @@ function Slide15Closing() {
             함께 시작해볼까요?
           </h1>
           <p className="mt-5 text-base sm:text-lg text-white/85 max-w-2xl leading-relaxed">
-            0단계 진단{" "}
-            <span className="mono font-bold">1,000만~1,500만원</span>으로 시작해
-            위험을 가장 낮춘 뒤, 결과 승인 후 1차 핵심 구축{" "}
+            1차 합산 계약{" "}
             <span className="mono font-bold">최소 1.0억 ~ 1.55억</span>으로
-            전환하는 방식을 권장드립니다. 1·2·3안 어느 쪽이든 동일하게 흘러가며,
-            이후 운영·외부 시황·후속 자동화로 차차 확장됩니다.
+            0~3단계를 한 번에 묶어 시작하는 방식을 권장드립니다. 단계별 검수·중간
+            산출물 승인을 조건으로 진행해 일정을 가장 안정적으로 확보하며,
+            1·2·3안 어느 쪽이든 동일하게 흘러가고 이후 운영·외부 시황·후속
+            자동화로 차차 확장됩니다.
           </p>
         </div>
 
@@ -1139,8 +1160,8 @@ function Slide15Closing() {
             },
             {
               n: "03",
-              title: "0단계 시작",
-              desc: "진단 결과를 보고 본 계약 여부를 결정합니다.",
+              title: "1차 합산 계약 체결",
+              desc: "0~3단계를 한 번에 묶어 본 구축에 착수합니다.",
             },
           ].map((s) => (
             <div
@@ -1167,8 +1188,34 @@ function Slide15Closing() {
               FAST · RELIABLE · DEVELOPMENT
             </div>
           </div>
-          <div className="sm:text-right space-y-1 text-white/85 mono text-[13px]">
-            <div>space.pluck@gmail.com</div>
+          <div className="sm:text-right space-y-1.5 text-white/85 mono text-[13px]">
+            <div className="flex sm:justify-end items-center gap-2 flex-wrap">
+              <a
+                href="mailto:hello@pluck.co.kr"
+                className="hover:text-white transition-colors"
+              >
+                hello@pluck.co.kr
+              </a>
+              <a
+                href="mailto:hello@pluck.co.kr"
+                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white text-ink text-[11px] font-bold tracking-wide hover:bg-white/85 transition-colors"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-3 h-3"
+                >
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="m3 7 9 6 9-6" />
+                </svg>
+                메일 보내기
+              </a>
+            </div>
             <div>황성안 · 심재형</div>
             <div className="text-white/55">2026.04.27</div>
           </div>
