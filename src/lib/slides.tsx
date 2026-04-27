@@ -329,7 +329,7 @@ function Slide05Scope() {
       title="제안 범위"
       subtitle="1차 구축 범위는 실제 의사결정에 바로 활용할 수 있는 핵심 기능에 집중합니다."
     >
-      <div className="grid md:grid-cols-3 gap-4 mb-6">
+      <div className="grid md:grid-cols-2 gap-4 mb-6">
         <Card tone="brand">
           <Tag tone="brand">1차 핵심 범위</Tag>
           <h3 className="mt-3 text-lg font-bold text-ink">
@@ -354,25 +354,13 @@ function Slide05Scope() {
             <li>· 사람 승인 전제의 검토 절차</li>
           </ul>
         </Card>
-        <Card tone="warn">
-          <Tag tone="ink">향후 확장 가능 영역</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">
-            외부 정보 연계 및 추가 과제
-          </h3>
-          <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 외부 시황 정보 연계</li>
-            <li>· 원료 구매 시점 비교 기능</li>
-            <li>· 반복 업무 자동화</li>
-            <li>· 제품·채널별 손익 분석 고도화</li>
-          </ul>
-        </Card>
       </div>
 
       <Card tone="soft" className="border-dashed">
         <p className="text-xs sm:text-sm text-ink-soft leading-relaxed">
-          이번 1차 범위에는 외부 시황 정보 연계, 전사 자동화 전면 구축, 신규
-          사업 확장 과제가 포함되지 않습니다. 이는 1차 성과 확인 이후 별도로
-          검토하는 것이 적절합니다.
+          외부 시황 정보 연계, 반복 업무 자동화, 신규 사업 확장 과제는 1차 범위에
+          포함되지 않으며, <strong className="text-ink">1차 성과 확인 이후 별도 후속
+          과제로 다룹니다</strong> (자세한 내용은 「확장 과제」 슬라이드 참조).
         </p>
       </Card>
     </SlideShell>
@@ -1290,6 +1278,16 @@ function SlideRoadmap() {
           </ul>
         </Card>
       </div>
+
+      <Card tone="warn" className="mb-3">
+        <Tag tone="warn">별도 부담 항목 (모든 안 공통)</Tag>
+        <p className="mt-3 text-sm text-ink-soft leading-relaxed">
+          클라우드 서버 비용, AI 사용료, 외부 시황 데이터 구독료는 누보 측 별도
+          부담입니다. 일반적으로{" "}
+          <strong className="text-ink">월 300만 ~ 1,000만원 수준</strong>에서
+          시작하며 사용량과 연계 범위에 따라 변동됩니다.
+        </p>
+      </Card>
 
       <Card tone="ink">
         <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
