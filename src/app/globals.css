@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 명함 톤 — Brand Blue + 화이트 + 블랙 미니멀 */
+  --paper-bg: #f5f6fa;
+  --paper: #ffffff;
+  --paper-soft: #f0f2f8;
+  --ink: #0a0a14;
+  --ink-soft: #4b5563;
+  --ink-mute: #8b94a3;
+  --line: rgba(40, 57, 200, 0.12);
+
+  /* 브랜드 컬러 (명함 색상) */
+  --brand: #2839c8;
+  --brand-deep: #1d2a99;
+  --brand-soft: #e8ebfd;
+  --brand-line: rgba(40, 57, 200, 0.18);
+
+  /* 보조 — 톤별 사용 (이전 변수명 유지하되 명함 톤으로 매핑) */
+  --green: #2839c8;
+  --green-deep: #1d2a99;
+  --green-soft: #e8ebfd;
+  --gold: #0a0a14;
+  --gold-soft: #f0f2f8;
+  --blue: #4054e0;
+  --blue-soft: #ecedfc;
+  --red: #444b59;
+  --red-soft: #e5e7eb;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper-bg: var(--paper-bg);
+  --color-paper: var(--paper);
+  --color-paper-soft: var(--paper-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-mute: var(--ink-mute);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-soft: var(--brand-soft);
+  --color-green: var(--green);
+  --color-green-deep: var(--green-deep);
+  --color-green-soft: var(--green-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-blue: var(--blue);
+  --color-blue-soft: var(--blue-soft);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system,
+    BlinkMacSystemFont, "Inter", "Apple SD Gothic Neo", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace,
+    SFMono-Regular, Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  background:
+    radial-gradient(circle at top left, rgba(40, 57, 200, 0.07), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(40, 57, 200, 0.04), transparent 40%),
+    linear-gradient(180deg, #f7f8fc 0%, var(--paper-bg) 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(40, 57, 200, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(40, 57, 200, 0.025) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85), transparent 92%);
+}
+
+/* 슬라이드 전환 */
+.slide-fade-enter {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.slide-fade-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* PLUCK 로고 타입페이스 — 굵고 단단한 헤드라인 느낌 */
+.pluck-logo {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+  font-feature-settings: "ss01";
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum";
+}
+
+@media print {
+  body { background: #fff; }
+  .no-print { display: none !important; }
+  .slide { page-break-after: always; box-shadow: none !important; }
 }
