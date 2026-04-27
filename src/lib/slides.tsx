@@ -116,8 +116,8 @@ function Slide01Cover() {
             시스템 구축 제안서
           </h2>
           <p className="mt-5 text-sm sm:text-base text-ink-soft leading-relaxed">
-            ERP 데이터와 외부 시황을 종합해, 누보의 S&amp;OP와 경영
-            의사결정을 빠르고 일관되게 보조하는 시스템 구축 제안입니다.
+            ERP 데이터와 외부 시황을 통합해, 누보의 S&amp;OP 및 경영
+            의사결정을 더 빠르고 일관되게 지원하는 시스템 구축 방안입니다.
           </p>
         </div>
 
@@ -180,7 +180,7 @@ function Slide02Overview() {
   return (
     <SlideShell
       title="제안 개요"
-      subtitle='이번 과제의 핵심은 "챗봇 도입"이 아니라 "근거가 있는 의사결정 지원 체계 구축"입니다.'
+      subtitle='이번 제안의 핵심은 단순한 챗봇 도입이 아니라, 근거 기반 의사결정 지원 체계를 구축하는 것입니다.'
     >
       <div className="grid md:grid-cols-3 gap-4 mb-6">
         <Card tone="brand">
@@ -222,9 +222,9 @@ function Slide02Overview() {
             내부 ERP 기반 의사결정 지원 시스템
           </strong>
           을 최소 6개월(28주) 일정으로 구축한 뒤,{" "}
-          <strong className="text-white">운영·개선 단계로 자연스럽게 전환</strong>
-          되어 AXE 외부 시황 연계와 후속 자동화 과제까지 차차 확장되는 장기
-          파트너십 구조입니다.
+          <strong className="text-white">운영 및 개선 단계로 전환</strong>
+          하여 AXE 외부 시황 연계와 후속 자동화 과제로 단계적으로 확장하는
+          구조입니다.
         </p>
       </Card>
     </SlideShell>
@@ -237,29 +237,29 @@ function Slide03HowWeWork() {
   const principles = [
     {
       no: "01",
-      title: "단계로 검증하며 갑니다",
-      desc: "0~3단계를 한 번에 묶어 계약하되, 각 단계 산출물 검수·승인을 조건으로 진행합니다. 누보의 위험과 일정 변동을 동시에 낮추는 방식입니다.",
+      title: "단계별 검증을 전제로 진행합니다",
+      desc: "각 단계 산출물에 대한 검수와 승인을 거쳐 다음 단계로 진행합니다. 범위와 일정 변동에 따른 리스크를 함께 낮추는 방식입니다.",
     },
     {
       no: "02",
-      title: "결과물 중심으로 일합니다",
-      desc: "기술 용어보다 회의에서 바로 쓸 수 있는 화면을 만드는 데 집중합니다. 산출물이 누보 회의에 들어가야 의미가 있습니다.",
+      title: "산출물 중심으로 실행합니다",
+      desc: "기술 용어보다 회의와 운영 현장에서 바로 활용할 수 있는 화면과 결과물을 만드는 데 집중합니다.",
     },
     {
       no: "03",
-      title: "사람의 결정을 대체하지 않습니다",
-      desc: "AI는 비교·추천·설명까지입니다. 발주·배분 같은 핵심 결정은 사람의 승인을 거치는 구조로 설계합니다.",
+      title: "최종 의사결정은 사람이 보유합니다",
+      desc: "AI는 비교, 추천, 설명을 지원하며, 발주·배분 등 핵심 의사결정은 반드시 사람의 승인 절차를 거치도록 설계합니다.",
     },
     {
       no: "04",
-      title: "벤더 종속을 만들지 않습니다",
-      desc: "소스코드·데이터 정의서·운영 권한은 처음부터 누보가 함께 보유합니다. 우리가 사라져도 시스템이 멈추지 않게 만듭니다.",
+      title: "벤더 종속을 남기지 않습니다",
+      desc: "소스코드, 데이터 정의서, 운영 권한을 초기부터 함께 관리하고, 인수인계 가능한 구조로 설계합니다.",
     },
   ];
   return (
     <SlideShell
       title="플럭은 이렇게 일합니다"
-      subtitle="누보가 가장 우려하는 부분 — 벤더 종속, 과도한 약속, 검증 없는 큰 계약 — 을 미리 차단하는 방식으로 일합니다."
+      subtitle="벤더 종속, 과도한 약속, 검증 없는 대규모 계약과 같은 리스크를 사전에 통제하는 방식으로 프로젝트를 수행합니다."
     >
       <div className="grid sm:grid-cols-2 gap-4">
         {principles.map((p) => (
@@ -292,33 +292,33 @@ function Slide04Background() {
         <Card tone="paper">
           <Tag tone="brand">현업 이슈</Tag>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 같은 제품이라도 국내·해외·B2B·생산 부서의 우선순위가 다름</li>
-            <li>· 손익 기준으로 어디에 먼저 배분할지 빠르게 합의 어려움</li>
-            <li>· 원료 구매 시점 판단에 개인 경험·감정이 개입될 수 있음</li>
+            <li>· 동일 제품이라도 국내·해외·B2B·생산 부서별 우선순위가 상이함</li>
+            <li>· 손익 기준으로 어느 채널에 우선 배분할지 신속한 합의가 어려움</li>
+            <li>· 원료 구매 시점 판단에 개인 경험과 정성적 판단이 개입될 수 있음</li>
           </ul>
         </Card>
         <Card tone="paper">
           <Tag tone="brand">데이터 이슈</Tag>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 데이터는 더존 ERP에 있으나 직접 의사결정에 쓰기엔 정리 필요</li>
-            <li>· 지역·조직 변경 이력으로 코드 매핑·기준 정합화가 선행되어야 함</li>
-            <li>· 사용 가능한 과거 데이터 범위는 2013~2026으로 확인됨</li>
+            <li>· 데이터는 더존 ERP에 존재하지만, 의사결정에 바로 활용하려면 정제 과정이 필요함</li>
+            <li>· 지역·조직 변경 이력으로 인해 코드 매핑과 기준 정합화가 선행되어야 함</li>
+            <li>· 활용 가능한 과거 데이터 범위는 2013~2026년으로 확인됨</li>
           </ul>
         </Card>
         <Card tone="paper">
           <Tag tone="brand">의사결정 이슈</Tag>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 판매계획·실적·구매·생산 계획이 순차 연결됨</li>
-            <li>· 흐름 전체를 동시에 봐야 합리적인 배분과 구매 판단이 가능</li>
-            <li>· 현재는 빠른 비교와 설명이 가능한 통합 화면이 부재</li>
+            <li>· 판매계획, 실적, 구매, 생산 계획이 연쇄적으로 연결됨</li>
+            <li>· 전체 흐름을 함께 보아야 합리적인 배분 및 구매 판단이 가능함</li>
+            <li>· 현재는 빠른 비교와 설명이 가능한 통합 의사결정 화면이 부재함</li>
           </ul>
         </Card>
         <Card tone="paper">
           <Tag tone="brand">외부 변수</Tag>
           <ul className="mt-3 space-y-2 text-sm text-ink-soft leading-relaxed">
-            <li>· 전쟁·중국 정책·물류·환율 등 외부 영향이 원료 적기에 큼</li>
-            <li>· AXE 같은 국제 시황 자료는 내부 가격과 함께 비교되어야 함</li>
-            <li>· 정답 예측보다 시나리오 비교·기회손실 추정이 더 실무적</li>
+            <li>· 전쟁, 중국 정책, 물류, 환율 등 외부 요인이 원료 구매 적기에 큰 영향을 미침</li>
+            <li>· AXE 등 국제 시황 자료는 내부 가격 정보와 함께 비교되어야 함</li>
+            <li>· 단일 정답 예측보다 시나리오 비교와 기회손실 추정이 실무적으로 유효함</li>
           </ul>
         </Card>
       </div>
@@ -341,9 +341,9 @@ function Slide05Scope() {
             내부 의사결정 지원
           </h3>
           <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 판매 계획 대비 실적 비교</li>
+            <li>· 판매 계획 대비 실적 분석</li>
             <li>· 지역·채널·사업부 기준 손익 비교</li>
-            <li>· 구매 실적·계획과 생산 계획 연계</li>
+            <li>· 구매 실적·계획과 생산 계획의 연계 분석</li>
             <li>· 배분 우선순위 추천 및 근거 설명</li>
           </ul>
         </Card>
@@ -353,9 +353,9 @@ function Slide05Scope() {
             S&amp;OP 회의 보조 화면
           </h3>
           <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 현재 재고 및 판매 방향 요약</li>
+            <li>· 현재 재고와 판매 방향 요약</li>
             <li>· 배분 추천안과 기회손실 비교</li>
-            <li>· 추천 근거 자연어 설명</li>
+            <li>· 추천 근거에 대한 자연어 설명</li>
             <li>· 사람 승인 전제의 워크플로우</li>
           </ul>
         </Card>
@@ -376,8 +376,8 @@ function Slide05Scope() {
       <Card tone="soft" className="border-dashed">
         <p className="text-xs sm:text-sm text-ink-soft leading-relaxed">
           본 제안서의 1차 범위에는 지분 기반 전략 파트너십, 트릿지 연계, 전사
-          자동화 전체 구축은 포함하지 않습니다. 1차 성과 확인 후 별도 후속
-          과제로 제안 가능합니다.
+          자동화 전면 구축이 포함되지 않습니다. 1차 성과 검증 이후 후속 과제로
+          별도 제안 가능합니다.
         </p>
       </Card>
     </SlideShell>
@@ -650,7 +650,7 @@ function Slide09Options() {
   return (
     <SlideShell
       title="추가 옵션 및 운영비"
-      subtitle="1차 구축 외에 선택 가능한 옵션과, 운영 단계의 월 비용입니다."
+      subtitle="1차 구축 이후 선택 가능한 확장 항목과 운영 단계의 월 비용입니다."
     >
       <div className="grid md:grid-cols-2 gap-4 mb-6">
         <Card tone="paper">
@@ -675,8 +675,8 @@ function Slide09Options() {
           </div>
           <p className="text-xs text-ink-mute mt-1">월 단위 · 부가세 별도</p>
           <p className="mt-4 text-sm text-ink-soft leading-relaxed">
-            룰 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원. 실제 범위에
-            따라 조정합니다.
+            규칙 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원을
+            포함하며 실제 범위에 따라 조정됩니다.
           </p>
         </Card>
       </div>
@@ -685,9 +685,9 @@ function Slide09Options() {
         <Tag tone="warn">별도 부담 항목</Tag>
         <p className="mt-3 text-sm text-ink-soft leading-relaxed">
           클라우드 인프라, LLM API 사용료, 외부 시황 데이터 구독료는 누보 측
-          별도 부담으로 청구됩니다. 일반적으로{" "}
+          별도 부담입니다. 일반적으로{" "}
           <strong className="text-ink">월 300만~1,000만원 수준</strong>에서
-          시작하며 사용량과 연계 범위에 따라 달라집니다.
+          시작하며, 사용량과 연계 범위에 따라 변동됩니다.
         </p>
       </Card>
     </SlideShell>
@@ -719,7 +719,7 @@ function Slide10Contract() {
             <li>· 0~3단계를 한 번에 계약</li>
             <li>· 단계별 검수·중간 산출물 승인을 조건으로 진행</li>
             <li>· 일정·인력·책임 소재 가장 안정적</li>
-            <li>· 본 구축 전환 단절 없이 직진</li>
+            <li>· 본 구축 전환 시 단절 없이 이어서 진행</li>
           </ul>
         </Card>
 
@@ -862,13 +862,13 @@ function Slide13NextSteps() {
     },
     {
       n: "03",
-      title: "1차 합산 계약 체결",
-      desc: "0~3단계를 묶어 1.0억~1.55억 범위로 한 번에 계약합니다.",
+      title: "본 계약 체결",
+      desc: "범위·일정·금액 확정 후 본 계약을 체결합니다.",
     },
     {
       n: "04",
       title: "단계별 검수 진행",
-      desc: "각 단계 산출물 승인을 조건으로 본 구축을 직진합니다.",
+      desc: "각 단계 산출물 승인 후 다음 단계로 순차 진행합니다.",
     },
     {
       n: "05",
@@ -879,7 +879,7 @@ function Slide13NextSteps() {
   return (
     <SlideShell
       title="다음 단계 제안"
-      subtitle="프로젝트를 빠르게 시작하기 위한 권장 절차입니다."
+      subtitle="프로젝트 착수를 위한 권장 절차입니다."
     >
       <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3 mb-6">
         {steps.map((s) => (
@@ -897,10 +897,8 @@ function Slide13NextSteps() {
 
       <Card tone="ink">
         <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
-          0~3단계를 묶은 1차 합산 계약{" "}
-          <span className="mono">최소 1.0억 ~ 1.55억</span>으로 시작하며, 각 단계
-          산출물의 검수와 승인을 조건으로 다음 단계로 진행합니다. 정확한 금액은
-          1차 구축 범위 확정 시점에 확정됩니다.
+          각 단계 산출물의 검수와 승인을 전제로 다음 단계로 진행합니다. 정확한
+          금액과 세부 일정은 1차 구축 범위 확정 이후 확정됩니다.
         </p>
       </Card>
     </SlideShell>
@@ -961,8 +959,8 @@ function Slide14Summary() {
             <li>
               · <strong className="text-ink">0~3단계 1차 합산 계약</strong> 권장
             </li>
-            <li>· 단계별 검수·산출물 승인을 조건으로 직진</li>
-            <li>· 0단계 진단(4주)부터 운영 전환까지 단절 없음</li>
+            <li>· 단계별 검수와 산출물 승인을 전제로 순차 진행</li>
+            <li>· 0단계 진단(4주)부터 운영 전환까지 흐름 단절 없음</li>
             <li>· 1차 종료 후 외부 시황·후속 과제 별도 검토</li>
           </ul>
         </Card>
@@ -986,17 +984,19 @@ function SlidePlans() {
   return (
     <SlideShell
       title="이 흐름을 수행하는 방식 — 1·2·3안"
-      subtitle="0~3단계 흐름과 개발 비용은 모든 안에 동일하게 적용됩니다. 차이는 두 사람이 어떻게 일하느냐와 누보 측에서 부담하는 부대 사항입니다."
+      subtitle="1·2·3안은 모두 프로젝트 계약 형태입니다. 0~3단계 추진 구조는 동일하고, 협업 방식(원격·상주)에 따라 출장·체류 부담이 견적에 반영되어 안별로 금액 차이가 발생합니다."
     >
       <div className="grid md:grid-cols-3 gap-4 mb-6">
         <Card tone="paper">
           <Tag tone="ink">1안</Tag>
-          <h3 className="mt-3 text-lg font-bold text-ink">2인 재택</h3>
-          <p className="text-sm text-ink-soft mt-1">두 사람 모두 원격</p>
+          <h3 className="mt-3 text-lg font-bold text-ink">2인 원격</h3>
+          <p className="text-sm text-ink-soft mt-1">
+            두 인력 모두 원격 기반으로 참여
+          </p>
           <div className="mt-5 mono text-2xl font-extrabold text-ink tracking-tight">
-            1.0억 ~ 1.55억
+            9,500만 ~ 1.4억
           </div>
-          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
+          <p className="text-xs text-ink-mute mt-1">출장·체류 부담 없음</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-ink-mute mb-1.5">
               누보 추가 부담
@@ -1004,22 +1004,24 @@ function SlidePlans() {
             <p className="text-sm text-ink font-bold">없음</p>
           </div>
           <ul className="mt-4 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 출입 부담 없음</li>
-            <li>· 화상 회의 + 월 1~2회 방문</li>
-            <li>· 도메인 학습 속도가 다소 느림</li>
+            <li>· 현장 출입 부담 없음</li>
+            <li>· 화상 회의 중심, 월 1~2회 방문</li>
+            <li>· 도메인 이해 속도는 상대적으로 완만함</li>
           </ul>
         </Card>
 
         <Card tone="paper">
           <Tag tone="brand">2안</Tag>
           <h3 className="mt-3 text-lg font-bold text-ink">
-            1인 상주 + 1인 재택
+            1인 상주 + 1인 원격
           </h3>
-          <p className="text-sm text-ink-soft mt-1">상주 1명 주 2~3일 출근</p>
+          <p className="text-sm text-ink-soft mt-1">
+            상주 1명 기준, 주 2~3일 현장 협업
+          </p>
           <div className="mt-5 mono text-2xl font-extrabold text-brand-deep tracking-tight">
             1.0억 ~ 1.55억
           </div>
-          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
+          <p className="text-xs text-ink-mute mt-1">출장·체류 일부 포함 (표준 견적)</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-brand mb-1.5">
               누보 추가 부담
@@ -1027,61 +1029,60 @@ function SlidePlans() {
             <p className="text-sm text-ink font-bold">사무 1석</p>
           </div>
           <ul className="mt-4 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 회의 직접 참여로 빠른 반영</li>
-            <li>· 비용·효과 균형이 가장 좋음</li>
-            <li>· 본 제안서 표준 가정</li>
+            <li>· 회의 참여와 피드백 반영이 빠름</li>
+            <li>· 비용과 실행 효율의 균형이 우수함</li>
+            <li>· 본 제안서의 기본 가정</li>
           </ul>
         </Card>
 
         <Card tone="paper">
           <Tag tone="warn">3안</Tag>
           <h3 className="mt-3 text-lg font-bold text-ink">2인 상주</h3>
-          <p className="text-sm text-ink-soft mt-1">두 사람 모두 누보 출근</p>
+          <p className="text-sm text-ink-soft mt-1">
+            두 인력 모두 누보 현장 협업
+          </p>
           <div className="mt-5 mono text-2xl font-extrabold text-ink tracking-tight">
-            1.0억 ~ 1.55억
+            1.1억 ~ 1.7억
           </div>
-          <p className="text-xs text-ink-mute mt-1">1차 합산 계약 · 범위 내 변동</p>
+          <p className="text-xs text-ink-mute mt-1">출장·체류 풀 반영</p>
           <div className="mt-5 pt-4 border-t border-line">
             <div className="text-[10px] font-extrabold tracking-wider text-ink-mute mb-1.5">
               누보 추가 부담
             </div>
-            <p className="text-sm text-ink font-bold">
-              사무 2석 + 상주 출장·체류 실비 정산
-            </p>
+            <p className="text-sm text-ink font-bold">사무 2석</p>
           </div>
           <ul className="mt-4 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 가장 빠른 진행, 즉시 응대</li>
-            <li>· 다부서 협조 즉시 가능</li>
-            <li>· 도메인 학습 속도 가장 빠름</li>
+            <li>· 가장 빠른 진행과 즉각 대응이 가능함</li>
+            <li>· 다부서 협의가 필요한 경우 유리함</li>
+            <li>· 도메인 이해도 확보 속도가 가장 빠름</li>
           </ul>
         </Card>
       </div>
 
       <Card tone="brand">
-        <Tag tone="brand">개발 비용은 모든 안에 동일</Tag>
+        <Tag tone="brand">개발 비용은 모든 안에서 동일</Tag>
         <p className="mt-3 text-sm text-ink leading-relaxed">
           본 제안서의 개발 비용{" "}
           <strong className="text-brand-deep">최소 1억 ~ 표준 1.55억</strong>은
-          0~3단계를 묶은 1차 합산 계약 기준이며, 1·2·3안 어느 쪽을 선택하셔도
-          동일하게 적용됩니다. 안별 차이는{" "}
+          협업 방식과 무관하게 동일하게 적용됩니다. 안별 차이는{" "}
           <strong className="text-ink">누보 측 사무 공간과 상주 부대 실비</strong>
-          에서만 발생합니다.
+          에 한정됩니다.
         </p>
       </Card>
 
       <Card tone="warn" className="mt-3 mb-8">
         <p className="text-sm text-ink-soft leading-relaxed">
-          <strong className="text-ink">동일하게 차차 진행 — </strong>
-          이후 운영(월 200만 ~ 1,200만, 강도에 따라 별도 협의)과 외부 시황 연계
-          옵션, 후속 자동화 과제도 모든 안에서 동일하게 단계적으로 확장됩니다.
+          <strong className="text-ink">후속 확장 구조는 동일합니다. </strong>
+          운영 지원, 외부 시황 연계 옵션, 후속 자동화 과제는 모든 안에서
+          동일한 기준으로 단계적으로 확장됩니다.
         </p>
       </Card>
 
       <Card tone="soft" className="mt-3">
         <p className="text-sm text-ink-soft leading-relaxed">
-          <strong className="text-ink">참고 — </strong>
-          장기 운영을 고려해 누보 내부에 담당 인력을 두는 인하우스 연계 형태도
-          별도로 협의 가능합니다 (겸직·역할·KPI·거주 조건은 별도 합의).
+          <strong className="text-ink">정규직 채용은 별도 협의 — </strong>
+          1·2·3안은 모두 프로젝트 단위 외주 계약입니다. 누보 내부에 담당 인력을
+          정규직으로 두는 방안은 본 제안과 분리해 별도로 협의드립니다.
         </p>
       </Card>
     </SlideShell>
@@ -1132,7 +1133,7 @@ function SlideComboPhasePricing() {
   return (
     <SlideShell
       title="단계별 일정 · 산출물 · 금액"
-      subtitle="0~3단계를 묶은 1차 합산 계약 기준입니다. 단계마다 검수를 통과해야 다음 단계로 진행되는 구조라 일정과 위험 통제가 안정적입니다."
+      subtitle="단계별 검수를 전제로 다음 단계로 진행하는 구조로, 일정과 리스크를 안정적으로 관리합니다."
     >
       <h3 className="text-base font-bold text-ink mb-3">전체 흐름 (최소 28주 / 6개월 이상)</h3>
       <div className="rounded-2xl border border-line bg-paper-soft p-5 mb-6">
@@ -1245,8 +1246,8 @@ function SlideComboPhasePricing() {
 function SlideRoadmap() {
   return (
     <SlideShell
-      title="1차 이후 — 차차 확장되는 장기 파트너십"
-      subtitle="1차 28주 / 1.55억은 시작점입니다. 이후 운영 안정화와 외부 시황 연계, 차기 프로젝트로 자연스럽게 확장됩니다."
+      title="1차 이후 — 단계적 확장 로드맵"
+      subtitle="1차 28주 / 1.55억은 출발점입니다. 이후 운영 안정화, 외부 시황 연계, 차기 프로젝트로 단계적으로 확장할 수 있습니다."
     >
       <div className="grid md:grid-cols-3 gap-4 mb-6">
         <Card tone="brand">
@@ -1254,10 +1255,10 @@ function SlideRoadmap() {
             STAGE 1 — 진행형
           </div>
           <h3 className="text-lg font-bold text-ink leading-tight">
-            운영 · 지속 개선
+            운영 안정화 및 지속 개선
           </h3>
           <p className="text-sm text-ink-soft mt-2 leading-relaxed">
-            룰 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원
+            운영 규칙 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원
           </p>
           <div className="mt-4 pt-3 border-t border-brand/20 text-xs">
             <div className="text-ink-mute font-bold mb-1">월 운영비</div>
@@ -1293,7 +1294,7 @@ function SlideRoadmap() {
             도메인 확장
           </h3>
           <p className="text-sm text-ink-soft mt-2 leading-relaxed">
-            1차 안정화 후 별도 협의로 자연스럽게 확장
+            1차 안정화 이후 별도 협의를 통해 확장
           </p>
           <ul className="mt-3 pt-3 border-t border-line text-xs text-ink-soft space-y-1.5">
             <li>· P2. 사무 업무 자동화</li>
@@ -1305,10 +1306,9 @@ function SlideRoadmap() {
 
       <Card tone="ink">
         <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
-          <strong className="text-white">차차 확장 — </strong>
-          1차 종료 후 누보가 강도와 범위를 확인한 뒤 단계적으로 운영 → 외부 시황
-          → 차기 도메인 과제로 확장합니다. 모든 후속 단계는 1차 결과 검증 후
-          별도 협의입니다.
+          <strong className="text-white">확장 원칙 </strong>
+          1차 종료 후 운영 안정화, 외부 시황 연계, 차기 도메인 과제로 순차
+          확장합니다. 모든 후속 단계는 1차 성과 검증을 전제로 별도 협의합니다.
         </p>
       </Card>
     </SlideShell>
@@ -1321,14 +1321,14 @@ function SlideCoopPrinciples() {
   return (
     <SlideShell
       title="누보 협조 사항 · 운영 원칙"
-      subtitle="안정적 진행을 위해 누보 측에서 준비해주실 사항과, 모든 안에 공통 적용되는 운영 원칙입니다."
+      subtitle="안정적인 추진을 위해 누보 측 준비 사항과 공통 운영 원칙을 함께 정리했습니다."
     >
       <h3 className="text-base font-bold text-ink mb-3">누보 측 협조 사항</h3>
       <div className="grid md:grid-cols-2 gap-3 mb-7">
         <Card tone="paper">
           <Tag tone="brand">데이터 / 시스템</Tag>
           <ul className="mt-3 space-y-1.5 text-sm text-ink-soft leading-relaxed">
-            <li>· 판매·구매·생산 계획·실적 샘플 데이터 (3~6개월치)</li>
+            <li>· 판매·구매·생산 계획 및 실적 샘플 데이터 (3~6개월치)</li>
             <li>· 지역·사업부·채널 코드표 및 변경 이력</li>
             <li>· 더존 테스트 계정 또는 시뮬레이션 환경</li>
             <li>· 보안·반출 정책 사전 정의</li>
@@ -1351,7 +1351,7 @@ function SlideCoopPrinciples() {
           <Tag tone="brand">사람 승인</Tag>
           <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
             <li>· 추천 결과는 사람이 승인 후 실행</li>
-            <li>· 추천 사유와 사용 데이터를 화면에 표시</li>
+            <li>· 추천 사유와 사용 데이터를 화면에서 함께 확인</li>
             <li>· 배분·구매 판단은 비교 중심으로 제공</li>
           </ul>
         </Card>
@@ -1360,17 +1360,97 @@ function SlideCoopPrinciples() {
           <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
             <li>· 소스코드·데이터 정의서·운영 매뉴얼 이관</li>
             <li>· 관리자 계정·배포 권한 이전 가능 구조</li>
-            <li>· 종료·인력 변경 시 인수인계 의무</li>
+            <li>· 종료 또는 인력 변경 시 인수인계 절차 포함</li>
           </ul>
         </Card>
         <Card tone="warn">
           <Tag tone="warn">비용 통제</Tag>
           <ul className="mt-3 space-y-1.5 text-xs text-ink-soft leading-relaxed">
-            <li>· 클라우드·API·외부 데이터 비용 상한선</li>
-            <li>· 업데이트 주기·사용량 정책 고정</li>
+            <li>· 클라우드·API·외부 데이터 비용 상한선 설정</li>
+            <li>· 업데이트 주기와 사용량 정책 사전 정의</li>
             <li>· 외부 시황 연계는 1차 성과 확인 후 확장</li>
           </ul>
         </Card>
+      </div>
+    </SlideShell>
+  );
+}
+
+/* ================== 신규 — 후속 프로젝트 10선 ================== */
+
+function SlideFutureProjects() {
+  const projects = [
+    {
+      n: "01",
+      title: "원재료 구매 타이밍 AI",
+      desc: "환율, 물류, 국제 시황, 재고 수준을 반영해 원재료 매입 시점을 추천하는 체계",
+    },
+    {
+      n: "02",
+      title: "수출 국가별 손익 관리",
+      desc: "국가·거래처·제품별 매출, 마진, 리드타임을 통합 관리하는 수출 의사결정 대시보드",
+    },
+    {
+      n: "03",
+      title: "생산·재고 최적화",
+      desc: "판매 계획과 수출 일정에 맞춰 생산량, 안전재고, 출하 우선순위를 추천하는 운영 시스템",
+    },
+    {
+      n: "04",
+      title: "제품별 수익성 시뮬레이터",
+      desc: "원가, 코팅 방식, 판가, 물류비를 반영해 제품별 목표 마진을 시뮬레이션하는 도구",
+    },
+    {
+      n: "05",
+      title: "B2B 영업 견적 자동화",
+      desc: "작물, 지역, 시즌, 거래 조건에 따라 추천 제품군과 견적안을 생성하는 영업 지원 시스템",
+    },
+    {
+      n: "06",
+      title: "해외 거래 운영 대시보드",
+      desc: "계약, 발주, 생산, 선적, 클레임 흐름을 한 화면에서 추적하는 글로벌 운영 체계",
+    },
+    {
+      n: "07",
+      title: "골프장 고객 운영 포털",
+      desc: "골프장별 제품 사용 이력, 시비 일정, 병해충 대응 기록을 관리하는 고객 서비스 플랫폼",
+    },
+    {
+      n: "08",
+      title: "홈가드닝 D2C 고도화",
+      desc: "가정원예 고객 대상 제품 추천, 정기구독, 리뷰 분석을 고도화하는 커머스 프로젝트",
+    },
+    {
+      n: "09",
+      title: "R&D 데이터 자산화",
+      desc: "시험 포장, 작물 반응, 지역별 효과 데이터를 표준화해 신제품 개발에 재활용하는 체계",
+    },
+    {
+      n: "10",
+      title: "전사 경영판단 통합 보드",
+      desc: "비료, 수출, 골프장, 원예 사업 데이터를 묶어 대표·임원용 판단 체계를 구축하는 프로젝트",
+    },
+  ];
+
+  return (
+    <SlideShell
+      title="누보에 적합한 후속 프로젝트 10선"
+      subtitle="1차 구축 이후, 누보의 사업 구조와 확장 방향을 기준으로 단계적으로 검토할 수 있는 후보 과제입니다."
+    >
+      <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        {projects.map((p) => (
+          <Card key={p.n} tone={Number(p.n) % 2 === 1 ? "paper" : "brand"}>
+            <div className="mono text-[11px] tracking-[0.18em] text-brand font-bold mb-2">
+              PROJECT {p.n}
+            </div>
+            <h3 className="text-sm font-bold text-ink leading-tight mb-2">
+              {p.title}
+            </h3>
+            <p className="text-[11px] text-ink-soft leading-relaxed">
+              {p.desc}
+            </p>
+          </Card>
+        ))}
       </div>
     </SlideShell>
   );
@@ -1390,50 +1470,35 @@ function Slide15Closing() {
             LAST SLIDE
           </div>
           <h1 className="mt-6 text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] text-white">
-            함께 시작해볼까요?
+            감사합니다
           </h1>
           <p className="mt-5 text-base sm:text-lg text-white/85 max-w-2xl leading-relaxed">
-            1차 합산 계약{" "}
-            <span className="mono font-bold">최소 1.0억 ~ 1.55억</span>으로
-            0~3단계를 한 번에 시작합니다. 단계별 검수를 통과하며 다음 단계로
-            진행되는 구조라 일정 확보가 안정적이고, 1·2·3안 어느 쪽이든 동일하게
-            흘러가며 이후 운영·외부 시황·후속 자동화로 차차 확장됩니다.
+            본 제안은 누보의 ERP 데이터와 경영 판단 흐름을 기반으로, 실제 회의와
+            운영 현장에서 활용 가능한 의사결정 지원 체계를 구축하는 데 목적이
+            있습니다. 1차 구축 이후에는 수출, 생산, 구매, 채널, R&amp;D 영역으로
+            점진적인 확장이 가능합니다.
           </p>
         </div>
 
-        <div className="mt-10 grid sm:grid-cols-3 gap-3">
-          {[
-            {
-              n: "01",
-              title: "범위 확정",
-              desc: "누보 내부에서 1차 구축 우선순위를 확정합니다.",
-            },
-            {
-              n: "02",
-              title: "샘플 데이터 협의",
-              desc: "3~6개월치 데이터 보안 범위를 함께 정합니다.",
-            },
-            {
-              n: "03",
-              title: "1차 합산 계약 체결",
-              desc: "0~3단계를 한 번에 묶어 본 구축에 착수합니다.",
-            },
-          ].map((s) => (
-            <div
-              key={s.n}
-              className="rounded-2xl bg-white/10 border border-white/15 backdrop-blur p-5"
-            >
-              <div className="mono text-xs tracking-[0.2em] text-white/60 font-bold mb-2">
-                STEP {s.n}
-              </div>
-              <h4 className="text-lg font-bold text-white leading-tight">
-                {s.title}
-              </h4>
-              <p className="text-sm text-white/80 mt-1.5 leading-relaxed">
-                {s.desc}
-              </p>
+        <div className="mt-10 grid sm:grid-cols-2 gap-3">
+          <div className="rounded-2xl bg-white/10 border border-white/15 backdrop-blur p-5">
+            <div className="text-[10px] tracking-[0.18em] font-extrabold text-white/65 mb-2">
+              1차 구축 초점
             </div>
-          ))}
+            <p className="text-sm text-white/85 leading-relaxed">
+              판매, 구매, 생산, 배분 판단을 하나의 흐름으로 연결하는 내부
+              의사결정 지원 체계 구축
+            </p>
+          </div>
+          <div className="rounded-2xl bg-white/10 border border-white/15 backdrop-blur p-5">
+            <div className="text-[10px] tracking-[0.18em] font-extrabold text-white/65 mb-2">
+              확장 가능 영역
+            </div>
+            <p className="text-sm text-white/85 leading-relaxed">
+              외부 시황, 글로벌 수출, 채널 운영, 고객 서비스, 연구개발 데이터
+              체계까지 단계적 확장 가능
+            </p>
+          </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/15 grid sm:grid-cols-2 gap-4 text-sm">
@@ -1530,13 +1595,13 @@ export const slides = [
     component: Slide03HowWeWork,
   },
   {
-    section: "10. 다음 단계",
-    title: "다음 단계 제안",
-    component: Slide13NextSteps,
+    section: "10. 확장 과제",
+    title: "누보에 적합한 후속 프로젝트 10선",
+    component: SlideFutureProjects,
   },
   {
     section: "맺음",
-    title: "함께 시작하기",
+    title: "마무리",
     component: Slide15Closing,
   },
 ];
