@@ -666,12 +666,14 @@ function Slide09Options() {
           <Tag tone="brand">운영 지원</Tag>
           <h3 className="mt-3 text-lg font-bold text-ink">월 운영 및 개선</h3>
           <div className="mono text-2xl sm:text-3xl font-extrabold text-brand-deep mt-2 tracking-tight">
-            8,000,000 ~ 12,000,000원
+            2,000,000 ~ 12,000,000원
           </div>
-          <p className="text-xs text-ink-mute mt-1">월 단위 · 부가세 별도</p>
+          <p className="text-xs text-ink-mute mt-1">
+            월 단위 · 강도별 별도 협의 · 부가세 별도
+          </p>
           <p className="mt-4 text-sm text-ink-soft leading-relaxed">
-            규칙 보완, 모델 점검, 사용자 피드백 반영, 운영 회의 지원을
-            포함하며 실제 범위에 따라 조정됩니다.
+            가벼운 유지보수부터 적극적인 개선·운영까지 누보의 사용 강도에 따라
+            범위와 비용을 합의합니다.
           </p>
         </Card>
       </div>
@@ -1361,6 +1363,70 @@ function SlideCoopPrinciples() {
   );
 }
 
+/* ================== 신규 — AI 전담 기능의 필요성 ================== */
+
+function SlideAITeamRationale() {
+  return (
+    <SlideShell
+      title="왜 누보에 AI 전담 기능이 필요한가"
+      subtitle="AI팀은 단순한 기술 조직이 아니라, 누보의 수익성 관리와 미래 사업 확장을 뒷받침하는 전략 실행 기능으로 볼 수 있습니다."
+    >
+      <div className="grid md:grid-cols-2 gap-4 mb-6">
+        <Card tone="brand">
+          <Tag tone="brand">내부 역량 축적</Tag>
+          <h3 className="mt-3 text-lg font-bold text-ink">
+            판단 기준이 회사 안에 남습니다
+          </h3>
+          <p className="mt-3 text-sm text-ink-soft leading-relaxed">
+            외부 업체가 화면만 만들어주는 구조가 아니라, 누보 내부에 데이터 기준과
+            판단 방식이 계속 쌓이는 구조를 만들 수 있습니다.
+          </p>
+        </Card>
+        <Card tone="paper">
+          <Tag tone="brand">수익성 관리 고도화</Tag>
+          <h3 className="mt-3 text-lg font-bold text-ink">
+            제품·채널·국가별 손익 대응이 빨라집니다
+          </h3>
+          <p className="mt-3 text-sm text-ink-soft leading-relaxed">
+            무엇을 먼저 팔고, 어디에 배분하고, 언제 사는 것이 유리한지 더 빠르게
+            비교할 수 있어 수익성 관리 체계가 한 단계 올라갑니다.
+          </p>
+        </Card>
+        <Card tone="paper">
+          <Tag tone="brand">수출 확대 대응</Tag>
+          <h3 className="mt-3 text-lg font-bold text-ink">
+            해외 거래가 늘수록 전담 기능이 필요합니다
+          </h3>
+          <p className="mt-3 text-sm text-ink-soft leading-relaxed">
+            일본, 미국 등 해외 거래가 커질수록 가격, 공급, 일정 판단을 더 자주
+            해야 하므로 이를 지속적으로 관리할 내부 기능이 필요합니다.
+          </p>
+        </Card>
+        <Card tone="warn">
+          <Tag tone="ink">기업가치 관점</Tag>
+          <h3 className="mt-3 text-lg font-bold text-ink">
+            미래 성장 체계에 대한 설명력이 생깁니다
+          </h3>
+          <p className="mt-3 text-sm text-ink-soft leading-relaxed">
+            단순히 AI를 도입했다는 의미보다, 누보가 수익성 관리와 미래 사업
+            확장을 준비하고 있다는 점을 더 분명하게 설명할 수 있습니다.
+          </p>
+        </Card>
+      </div>
+
+      <Card tone="ink">
+        <p className="text-sm sm:text-base text-white leading-relaxed font-medium">
+          누보의 AI 전담 기능은 비용 절감만을 위한 조직이 아니라,{" "}
+          <strong className="text-white">수익성 관리 체계 고도화</strong>,{" "}
+          <strong className="text-white">수출 확대 대응</strong>,{" "}
+          <strong className="text-white">미래 사업 실행력 내재화</strong>를 위한
+          전략 실행 기능으로 설계될 수 있습니다.
+        </p>
+      </Card>
+    </SlideShell>
+  );
+}
+
 /* ================== 신규 — 후속 프로젝트 10선 ================== */
 
 function SlideFutureProjects() {
@@ -1594,7 +1660,12 @@ export const slides = [
     component: SlideCoopPrinciples,
   },
   {
-    section: "09. 확장 과제",
+    section: "09. 전략 기능",
+    title: "왜 누보에 AI 전담 기능이 필요한가",
+    component: SlideAITeamRationale,
+  },
+  {
+    section: "10. 확장 과제",
     title: "누보에 적합한 후속 프로젝트 10선",
     component: SlideFutureProjects,
   },
