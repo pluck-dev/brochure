@@ -112,7 +112,55 @@ body::before {
 }
 
 @media print {
-  body { background: #fff; }
-  .no-print { display: none !important; }
-  .slide { page-break-after: always; box-shadow: none !important; }
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .slide {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    break-after: page;
+    page-break-after: always;
+    box-shadow: none !important;
+    min-height: 0 !important;
+    border-color: rgba(40, 57, 200, 0.12) !important;
+  }
+
+  .print-deck {
+    padding: 0 !important;
+  }
+
+  .print-page {
+    margin: 0 0 6mm 0 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-page:last-child .slide {
+    page-break-after: auto;
+  }
+
+  .print-section-label {
+    margin-bottom: 2.5mm !important;
+    font-size: 9px !important;
+  }
+
+  .print-deck .slide {
+    width: 100% !important;
+    max-width: none !important;
+  }
 }

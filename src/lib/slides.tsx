@@ -78,7 +78,7 @@ function Tag({
 
 function Slide01Cover() {
   return (
-    <div className="rounded-3xl overflow-hidden shadow-[0_18px_40px_rgba(40,57,200,0.18)] grid sm:grid-cols-[1.2fr_1fr] min-h-[64vh]">
+    <div className="slide rounded-3xl overflow-hidden shadow-[0_18px_40px_rgba(40,57,200,0.18)] grid sm:grid-cols-[1.2fr_1fr] min-h-[64vh]">
       <div className="bg-brand text-white p-10 sm:p-14 flex flex-col justify-between relative overflow-hidden">
         <div className="absolute -right-20 -top-20 w-72 h-72 rounded-full bg-white/5" />
         <div className="absolute -left-12 -bottom-12 w-60 h-60 rounded-full bg-white/5" />
@@ -1528,7 +1528,7 @@ function SlideFutureProjects() {
 
 function Slide15Closing() {
   return (
-    <article className="rounded-3xl overflow-hidden bg-brand text-white shadow-[0_18px_40px_rgba(40,57,200,0.20)] min-h-[60vh] relative">
+    <article className="slide rounded-3xl overflow-hidden bg-brand text-white shadow-[0_18px_40px_rgba(40,57,200,0.20)] min-h-[60vh] relative">
       <div className="absolute -left-20 -bottom-20 w-80 h-80 rounded-full bg-white/5" />
       <div className="absolute -right-16 top-12 w-56 h-56 rounded-full bg-white/5" />
 

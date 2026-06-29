@@ -1,0 +1,4785 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "rectangle",
+      "id": "Jv5Rw",
+      "x": 0,
+      "y": -1091,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A5%E1%86%A8_%E1%84%86%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B7.png",
+        "mode": "fill"
+      },
+      "width": 890,
+      "height": 768
+    },
+    {
+      "type": "frame",
+      "id": "1N6hy",
+      "x": 0,
+      "y": 0,
+      "name": "SP1-표지",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HKisy",
+          "x": 0,
+          "y": 0,
+          "name": "leftPage",
+          "width": 960,
+          "height": 1358,
+          "fill": "$accent-primary",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            50,
+            0,
+            70
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "IuIYz",
+              "name": "leftCenter",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nGJyg",
+                  "name": "pluckMark",
+                  "fill": "$surface-primary",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 90,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "dR7oi",
+                  "name": "tagLine",
+                  "fill": "#FFFFFFBB",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Igniting your ideas with fast, reliable development",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 24
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "VbQZo",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 1290,
+              "name": "bottomMeta",
+              "fill": "#FFFFFF66",
+              "textGrowth": "fixed-width",
+              "width": 960,
+              "content": "PROPOSAL · 2026.04.27",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "500",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "fTcFA",
+          "x": 959,
+          "y": 0,
+          "name": "spineLine",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "frame",
+          "id": "qFLV1",
+          "x": 960,
+          "y": 0,
+          "name": "rightPage",
+          "width": 960,
+          "height": 1358,
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            120,
+            70,
+            80,
+            50
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WrpSc",
+              "name": "rightTop",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jpJAc",
+                  "name": "forLabel",
+                  "fill": "$accent-primary",
+                  "content": "FOR NUBO",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "vmsNT",
+                  "name": "titleKo",
+                  "fill": "$accent-dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "누보 AI 의사결정\n지원 시스템\n구축 제안서",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 56,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "text",
+                  "id": "8qGmI",
+                  "name": "subKo",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "더존 ERP와 외부 시황 정보를 함께 보고,\n판매·구매·생산 판단을 더 빠르고 일관되게\n할 수 있도록 돕는 시스템 제안입니다.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 24
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GzdM7",
+              "name": "rightBot",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "e20Yv",
+                  "name": "divLine",
+                  "fill": "$border-subtle",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "7Oozh",
+                  "name": "infoGrid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZSWOn",
+                      "name": "row1",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A9rKo",
+                          "fill": "$foreground-muted",
+                          "textGrowth": "fixed-width",
+                          "width": 80,
+                          "content": "수신",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XVqxR",
+                          "fill": "$foreground-primary",
+                          "content": "주식회사 누보",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cGFpz",
+                      "name": "row2",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n10qO",
+                          "fill": "$foreground-muted",
+                          "textGrowth": "fixed-width",
+                          "width": 80,
+                          "content": "제안",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qfVkK",
+                          "fill": "$foreground-primary",
+                          "content": "플럭 · 황성안 · 심재형",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VpQlO",
+                      "name": "row3",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OZbFE",
+                          "fill": "$foreground-muted",
+                          "textGrowth": "fixed-width",
+                          "width": 80,
+                          "content": "Contact",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ulr50",
+                          "fill": "$foreground-primary",
+                          "content": "hello@pluck.co.kr",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 18
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8AOY4",
+                      "name": "row4",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TL2Vv",
+                          "fill": "$foreground-muted",
+                          "textGrowth": "fixed-width",
+                          "width": 80,
+                          "content": "일자",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KAn06",
+                          "fill": "$foreground-primary",
+                          "content": "2026.04.27",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 18
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "UmdCH",
+      "x": 2020,
+      "y": 0,
+      "name": "SP2-개요+현황",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "72UyH",
+          "x": 0,
+          "y": 0,
+          "name": "lp",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "padding": [
+            70,
+            50,
+            70,
+            70
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8e8VS",
+              "name": "lc",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cO162",
+                  "name": "lh",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q9gYp",
+                      "fill": "$accent-primary",
+                      "content": "01",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f8jc7",
+                      "fill": "$foreground-primary",
+                      "content": "제안 개요",
+                      "fontFamily": "Inter",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cKFOm",
+                  "name": "qb",
+                  "width": "fill_container",
+                  "fill": "$accent-primary",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "padding": [
+                    24,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5nF0p",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "이번 제안의 핵심은 AI 자체가 아니라, 누보가 더 빨리 비교하고 더 쉽게 합의할 수 있는 판단 도구를 만드는 것입니다.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UE24V",
+                  "name": "items",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 22,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BksTW",
+                      "name": "i1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zlmLN",
+                          "name": "b1",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "$accent-primary",
+                          "cornerRadius": 14,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "W1vAd",
+                              "fill": "#FFFFFF",
+                              "content": "1",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "88psR",
+                          "name": "t1",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aXEen",
+                              "fill": "$foreground-primary",
+                              "content": "핵심 목표 — 결정 속도 개선",
+                              "fontFamily": "Inter",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nXObX",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "국내·해외·B2B·생산 부서의 상충되는 의견을 수치와 근거로 빠르게 정리합니다.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 17
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5Ri7N",
+                      "name": "i2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "3ajgx",
+                          "name": "b2",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "$accent-primary",
+                          "cornerRadius": 14,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "44QLG",
+                              "fill": "#FFFFFF",
+                              "content": "2",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8iFie",
+                          "name": "t2",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mg64X",
+                              "fill": "$foreground-primary",
+                              "content": "핵심 방법 — 자료 정리 + 비교 기준 + 쉬운 설명",
+                              "fontFamily": "Inter",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "0fxtu",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "흩어진 자료를 한곳에 모으고, 비교 기준을 만들고, 결과를 이해하기 쉬운 문장과 화면으로 보여줍니다.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 17
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bPtFE",
+                      "name": "i3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dxvec",
+                          "name": "b3",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "$accent-primary",
+                          "cornerRadius": 14,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CKC2D",
+                              "fill": "#FFFFFF",
+                              "content": "3",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OsAEQ",
+                          "name": "t3",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vHFWx",
+                              "fill": "$foreground-primary",
+                              "content": "핵심 원칙 — 최종 판단은 사람",
+                              "fontFamily": "Inter",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GQitE",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI는 추천·비교·설명을 담당하고, 최종 승인과 실행 판단은 누보가 보유합니다.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "Inter",
+                              "fontSize": 17
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tQrhb",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "1차로는 누보 내부 데이터를 기준으로 판매, 구매, 생산 판단을 돕는 핵심 화면을 구축하고, 이후 외부 시황 정보 연계와 추가 자동화로 넓혀가는 방식입니다.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q7BsB",
+              "name": "lf",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mILP4",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "mdCh5",
+                  "fill": "$foreground-muted",
+                  "content": "02",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cEcHg",
+          "x": 960,
+          "y": 0,
+          "name": "rp",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "padding": [
+            70,
+            70,
+            70,
+            50
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uqmBO",
+              "name": "rc",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DZiLi",
+                  "name": "rh",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6ZcC8",
+                      "fill": "$accent-primary",
+                      "content": "02",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K11oS",
+                      "fill": "$foreground-primary",
+                      "content": "누보의 현재 상황",
+                      "fontFamily": "Inter",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kWgzx",
+                  "fill": "$foreground-secondary",
+                  "content": "미팅에서 확인된 주요 현안을 네 가지로 정리했습니다.",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                },
+                {
+                  "type": "frame",
+                  "id": "fur6n",
+                  "name": "grid",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BsT6P",
+                      "name": "tr",
+                      "width": "fill_container",
+                      "height": "fit_content(212)",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Y0wZz",
+                          "name": "c1",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$accent-light",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "p5o0g",
+                              "name": "c1h",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k5raA",
+                                  "fill": "$accent-primary",
+                                  "content": "01",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3Rv5f",
+                                  "fill": "$foreground-primary",
+                                  "content": "현업 이슈",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "LnVuJ",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 동일 제품이라도 국내·해외·B2B·생산 부서별 우선순위가 상이함\n· 손익 기준으로 어느 채널에 우선 배분할지 신속한 합의가 어려움\n· 원료 구매 시점 판단이 개인 경험에 크게 좌우될 수 있음",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lCsfZ",
+                          "name": "c2",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$accent-light",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "p5FIJ",
+                              "name": "c2h",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TYOap",
+                                  "fill": "$accent-primary",
+                                  "content": "02",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KRtXF",
+                                  "fill": "$foreground-primary",
+                                  "content": "데이터 이슈",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "0QBWx",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 데이터는 더존 ERP에 있지만, 바로 판단에 쓰기에는 먼저 정리 작업이 필요함\n· 지역·조직 변경 이력 때문에 코드와 기준을 먼저 통일해야 함\n· 활용 가능한 과거 데이터 범위는 2013~2026년",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OvDFU",
+                      "name": "br",
+                      "width": "fill_container",
+                      "height": "fit_content(213)",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LHimz",
+                          "name": "c3",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$accent-light",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "RtIQF",
+                              "name": "c3h",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kYNil",
+                                  "fill": "$accent-primary",
+                                  "content": "03",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "UkiOT",
+                                  "fill": "$foreground-primary",
+                                  "content": "의사결정 이슈",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "PO6uP",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 판매계획, 실적, 구매, 생산 계획이 연쇄적으로 연결됨\n· 전체 흐름을 함께 보아야 합리적인 배분 및 구매 판단이 가능\n· 현재는 여러 자료를 한 번에 비교해볼 수 있는 통합 화면이 부족",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NQebU",
+                          "name": "c4",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$accent-light",
+                          "cornerRadius": 12,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "pCuJS",
+                              "name": "c4h",
+                              "width": "fill_container",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Jbdi5",
+                                  "fill": "$accent-primary",
+                                  "content": "04",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 16,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NhxTo",
+                                  "fill": "$foreground-primary",
+                                  "content": "외부 변수",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 18,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "ADGy9",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 전쟁, 중국 정책, 물류, 환율 등 외부 요인이 원료 구매 적기에 큰 영향\n· 국제 시황 자료는 내부 가격 정보와 함께 봐야 실질적인 판단 가능\n· 하나의 정답보다 여러 시나리오 비교가 더 실무적",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2WTXc",
+              "name": "rf",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dCYZW",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "9Anfz",
+                  "fill": "$foreground-muted",
+                  "content": "03",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "GQkZQ",
+          "x": 959,
+          "y": 0,
+          "name": "spine",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": 1358
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YhOFt",
+      "x": 4040,
+      "y": 0,
+      "name": "SP3-방식+범위",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "kCx4l",
+          "x": 959,
+          "y": 0,
+          "name": "spine",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "frame",
+          "id": "IyCLL",
+          "x": 0,
+          "y": 0,
+          "name": "leftPage",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            70,
+            50,
+            70,
+            70
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "SfYWL",
+              "name": "secNum",
+              "fill": "$accent-primary",
+              "content": "03",
+              "fontFamily": "Geist Mono",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "r7ozS",
+              "name": "title1",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "플럭은 이렇게 일합니다",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "iho8W",
+              "name": "sub1",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "누보가 걱정할 수 있는 부분을 줄이고, 실제로 확인하면서 진행하는 방식으로 프로젝트를 수행합니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "IE8OW",
+              "name": "spacer1",
+              "opacity": 0,
+              "width": "fill_container",
+              "height": 8
+            },
+            {
+              "type": "frame",
+              "id": "EdupN",
+              "name": "itemsWrap",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j0OkF",
+                  "name": "item1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EGIPy",
+                      "name": "badge1",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "$accent-primary",
+                      "cornerRadius": 18,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mH857",
+                          "name": "badge1txt",
+                          "fill": "#FFFFFF",
+                          "content": "01",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q60cU",
+                      "name": "txt1wrap",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xWG99",
+                          "name": "txt1title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "단계별로 확인하며 진행합니다",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YDygw",
+                          "name": "txt1desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "각 단계 결과를 함께 확인한 뒤 다음 단계로 넘어갑니다. 큰 계약만 먼저 하고 나중에 확인하는 방식이 아닙니다.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 18
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V0hC8",
+                  "name": "item2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uP3pF",
+                      "name": "badge2",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "$accent-primary",
+                      "cornerRadius": 18,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Zwdoc",
+                          "name": "badge2txt",
+                          "fill": "#FFFFFF",
+                          "content": "02",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z645a",
+                      "name": "txt2wrap",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "doyXS",
+                          "name": "txt2title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "실제로 쓰는 화면을 만듭니다",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8w3zU",
+                          "name": "txt2desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "기술 설명보다 회의와 운영 현장에서 바로 사용할 수 있는 화면과 결과물을 만드는 데 집중합니다.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 18
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oEMH1",
+                  "name": "item3",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VaVxM",
+                      "name": "badge3",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "$accent-primary",
+                      "cornerRadius": 18,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DUbkt",
+                          "name": "badge3txt",
+                          "fill": "#FFFFFF",
+                          "content": "03",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UvBbG",
+                      "name": "txt3wrap",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pHnZT",
+                          "name": "txt3title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "최종 결정은 누보가 합니다",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j1Lgm",
+                          "name": "txt3desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "시스템은 비교와 추천을 돕지만, 발주·배분 같은 중요한 결정은 반드시 누보가 직접 승인하도록 구성합니다.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 18
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "304Er",
+                  "name": "item4",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mfMi4",
+                      "name": "badge4",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "$accent-primary",
+                      "cornerRadius": 18,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZzN7L",
+                          "name": "badge4txt",
+                          "fill": "#FFFFFF",
+                          "content": "04",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "099t3",
+                      "name": "txt4wrap",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z4XAp",
+                          "name": "txt4title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "한 업체에 묶이지 않게 합니다",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y6wDV",
+                          "name": "txt4desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "운영 자료와 권한이 누보에 남도록 구성해, 담당 업체가 바뀌어도 계속 운영할 수 있게 합니다.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 18
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wie8Z",
+              "name": "footerL",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BfyKB",
+                  "name": "footLtxt",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "xm9pj",
+                  "name": "footLnum",
+                  "fill": "$foreground-muted",
+                  "content": "04",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5ivR5",
+          "x": 960,
+          "y": 0,
+          "name": "rightPage",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            70,
+            70,
+            70,
+            50
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "oiSHd",
+              "name": "wrapper",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dJ3F4",
+                  "name": "secNum2",
+                  "fill": "$accent-primary",
+                  "content": "04",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Wmq7i",
+                  "name": "title2",
+                  "fill": "$foreground-primary",
+                  "content": "제안 범위",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "nGcjf",
+                  "name": "sub2",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "1차 구축 범위는 실제 의사결정에 바로 활용할 수 있는 핵심 기능에 집중합니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 20
+                },
+                {
+                  "type": "frame",
+                  "id": "4uOR3",
+                  "name": "cardsWrap",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wrhCR",
+                      "name": "blueCard",
+                      "width": "fill_container",
+                      "fill": "$accent-primary",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oOK98",
+                          "name": "blueTitle",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "1차 핵심 범위 — 내부 의사결정 지원",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5UixO",
+                          "name": "blueItems",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2gBxF",
+                              "name": "bi1",
+                              "fill": "#FFFFFFCC",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 판매 계획 대비 실적 분석",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "7RLKD",
+                              "name": "bi2",
+                              "fill": "#FFFFFFCC",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 지역·채널·사업부 기준 손익 비교",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "A8pTv",
+                              "name": "bi3",
+                              "fill": "#FFFFFFCC",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 구매 실적·계획과 생산 계획의 연계 분석",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "AnVT3",
+                              "name": "bi4",
+                              "fill": "#FFFFFFCC",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 배분 우선순위 추천 및 근거 설명",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NI3KQ",
+                      "name": "lightCard",
+                      "width": "fill_container",
+                      "fill": "$accent-light",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        28,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h73nf",
+                          "name": "lightTitle",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "화면 및 운영 범위 — 의사결정 회의 보조 화면",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Cf7EW",
+                          "name": "lightItems",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "hVwbO",
+                              "name": "li1",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 현재 재고와 판매 방향 요약",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "IvlXe",
+                              "name": "li2",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 배분 추천안과 기회손실 비교",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "6q2XI",
+                              "name": "li3",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 추천 이유를 쉬운 문장으로 설명",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            },
+                            {
+                              "type": "text",
+                              "id": "60kd3",
+                              "name": "li4",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "· 사람 승인 전제의 검토 절차",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 18
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "19NRR",
+                  "name": "noteR",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "외부 시황 정보 연계, 반복 업무 자동화, 신규 사업 확장 과제는 1차 범위에 포함되지 않으며, 1차 성과 확인 이후 별도 후속 과제로 다룹니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cUt4v",
+              "name": "footerR",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n4EIf",
+                  "name": "footRtxt",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "22P6K",
+                  "name": "footRnum",
+                  "fill": "$foreground-muted",
+                  "content": "05",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ELi6V",
+      "x": 6060,
+      "y": 0,
+      "name": "SP4-일정+진행안",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "YPMum",
+          "x": 959,
+          "y": 0,
+          "name": "spine",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "frame",
+          "id": "7j9Ks",
+          "x": 70,
+          "y": 70,
+          "name": "leftPage",
+          "width": 840,
+          "height": 1218,
+          "layout": "vertical",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GjoTC",
+              "name": "leftContent",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jOtbK",
+                  "fill": "$accent-primary",
+                  "content": "05",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "TUJsP",
+                  "fill": "$accent-dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "단계별 일정 · 산출물 · 금액",
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tsLWD",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "각 단계를 확인하고 넘어가는 방식으로 진행해 일정과 품질을 안정적으로 관리합니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "z2Py3",
+                  "fill": "$foreground-muted",
+                  "content": "전체 흐름: 최소 28주 / 6개월 이상",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "k1xL0",
+                  "name": "timeline",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o4lEv",
+                      "name": "ph0",
+                      "width": 118,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KXdJ5",
+                          "fill": "#999999",
+                          "content": "0단계 · 진단 및 상세 설계",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WL0tn",
+                          "name": "pill0",
+                          "width": "fill_container",
+                          "height": 32,
+                          "fill": "#3B5CE0",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uQa4r",
+                              "fill": "#FFFFFF",
+                              "content": "최소 4주",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iclpC",
+                      "name": "ph1",
+                      "width": 235,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OhdhH",
+                          "fill": "#999999",
+                          "content": "1단계 · 데이터 기반 구축",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "du5ky",
+                          "name": "pill1",
+                          "width": "fill_container",
+                          "height": 32,
+                          "fill": "#3B5CE0",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CB1gE",
+                              "fill": "#FFFFFF",
+                              "content": "최소 8주",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r5ed1",
+                      "name": "ph2",
+                      "width": 293,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bKWxJ",
+                          "fill": "#999999",
+                          "content": "2단계 · 의사결정 화면 구축",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9t2vj",
+                          "name": "pill2",
+                          "width": "fill_container",
+                          "height": 36,
+                          "fill": "#3B5CE0",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2wx23",
+                              "fill": "#FFFFFF",
+                              "content": "최소 10주",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Tg2Fc",
+                      "name": "ph3",
+                      "width": 176,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hu6qL",
+                          "fill": "#999999",
+                          "content": "3단계 · 안정화 및 전환",
+                          "textAlign": "center",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gc72K",
+                          "name": "pill3",
+                          "width": "fill_container",
+                          "height": 32,
+                          "fill": "#3B5CE0",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O7Bzd",
+                              "fill": "#FFFFFF",
+                              "content": "최소 6주",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p5JXr",
+                  "name": "table",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NmOxf",
+                      "name": "hrow",
+                      "width": "fill_container",
+                      "fill": "$accent-primary",
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rlgBv",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "단계",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WNRtp",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "기간",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ow0qv",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "주요 산출물",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VPd9z",
+                          "name": "h_kp",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "content": "검수 포인트",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hJuOy",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "금액",
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EbZZk",
+                      "name": "r1",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eNxJA",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "0단계—진단 및 상세 설계",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VdVxQ",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "최소 4주",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "3nT2V",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "데이터 진단서, 핵심 판단 기준서, 코드 정리 계획, 구축 명세서",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "ILuXS",
+                          "name": "r1_kp",
+                          "fill": "#555555",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "content": "범위 확정 · 다음 단계 승인",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2o9sE",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "1,000만~1,500만원",
+                          "lineHeight": 1.5,
+                          "textAlign": "right",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uwWxG",
+                      "name": "r2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dqJiY",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "1단계—데이터 기반 구축",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eR2CR",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "최소 8주",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "WjACt",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "분석용 데이터 정리, 기준 테이블, 기본 현황 화면",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "7E0v9",
+                          "name": "r2_kp",
+                          "fill": "#555555",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "content": "데이터 정합성 · 조회 정확성 검수",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WcquG",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "4,000만~6,000만원",
+                          "lineHeight": 1.5,
+                          "textAlign": "right",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n3yF8",
+                      "name": "r3",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Lf4kA",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "2단계—의사결정 화면 구축",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M9xvk",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "최소 10주",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "D12sO",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "배분 추천 화면, 손익 비교, 설명 기능, 승인 흐름 초안",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "jccT1",
+                          "name": "r3_kp",
+                          "fill": "#555555",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "content": "회의 활용성 · 추천 결과 검토",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UMCvh",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "3,500만~5,500만원",
+                          "lineHeight": 1.5,
+                          "textAlign": "right",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ctSyd",
+                      "name": "r4",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border-subtle"
+                      },
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XOomj",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "3단계—안정화 및 전환",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DOafs",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "최소 6주",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "6on01",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "권한·감사로그·운영문서·교육자료",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "zYtKr",
+                          "name": "r4_kp",
+                          "fill": "#555555",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "content": "운영 준비 완료 · 종료 승인",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hVC9a",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "1,500만~2,500만원",
+                          "lineHeight": 1.5,
+                          "textAlign": "right",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8wy2B",
+                      "name": "trow",
+                      "width": "fill_container",
+                      "fill": "$accent-primary",
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wJ8BA",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 135,
+                          "content": "TOTAL",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eKzro",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 65,
+                          "content": "최소 28주",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D0Hiq",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "단계별 검수 통과 후 다음 단계로 진입",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        },
+                        {
+                          "type": "text",
+                          "id": "PPhcC",
+                          "name": "t_kp",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": 175,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g7K9T",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 183,
+                          "content": "1.0억~1.55억원 (부가세 별도)",
+                          "lineHeight": 1.5,
+                          "textAlign": "right",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7xZmU",
+              "name": "leftFooter",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rRdkL",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "u7vRG",
+                  "fill": "$foreground-muted",
+                  "content": "06",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZNTyZ",
+          "x": 1010,
+          "y": 70,
+          "name": "rightPage",
+          "width": 840,
+          "height": 1218,
+          "layout": "vertical",
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pfSnt",
+              "name": "rightContent",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C5R5D",
+                  "fill": "$accent-primary",
+                  "content": "06",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 48,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "p6nr8",
+                  "fill": "$accent-dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "협업 방식에 따른 3가지 진행안",
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "VVl8x",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "구축 내용은 같고, 차이는 현장 참여 방식과 이에 따른 총 비용입니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "frame",
+                  "id": "j89i2",
+                  "name": "cards",
+                  "width": "fill_container",
+                  "height": 674,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IJHRD",
+                      "name": "card1",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$accent-light",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vAnU6",
+                          "name": "c1head",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fLB0w",
+                              "fill": "$accent-dark",
+                              "content": "1안 — 전면 원격",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lGnP5",
+                              "fill": "$accent-primary",
+                              "content": "9,500만~1.4억",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "roFHN",
+                          "fill": "$foreground-secondary",
+                          "content": "출장·체류 부담 없음",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zjvdq",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 누보 추가 부담 없음\n· 화상 회의 중심, 월 1~2회 방문\n· 현장 이해 속도는 상대적으로 느릴 수 있음",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Bfj0I",
+                      "name": "card2",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "$accent-primary",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MuMKE",
+                          "name": "c2badge",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 4,
+                          "padding": [
+                            4,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pmx8P",
+                              "fill": "$accent-primary",
+                              "content": "본 제안서 기본 가정",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vwYmp",
+                          "name": "c2head",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5jpBd",
+                              "fill": "#FFFFFF",
+                              "content": "2안 — 일부 현장 협업",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qqeXu",
+                              "fill": "#FFFFFF",
+                              "content": "1.0억~1.55억",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "H9NSt",
+                          "fill": "#FFFFFFCC",
+                          "content": "출장·체류 일부 포함 · 표준 견적",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JUFJq",
+                          "fill": "#FFFFFFCC",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 누보 추가 부담: 사무 1석\n· 회의 참여와 피드백 반영이 빠름\n· 비용과 실행 효율의 균형이 우수",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BotaX",
+                      "name": "card3",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#EEF1FB",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gpgOd",
+                          "name": "c3head",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JK3Ki",
+                              "fill": "#1A1A1A",
+                              "content": "3안 — 전면 현장 협업",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GWo1B",
+                              "fill": "#3B5CE0",
+                              "content": "1.1억~1.7억",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "MMR5j",
+                          "fill": "#555555",
+                          "content": "출장·체류 풀 반영",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "izo41",
+                          "fill": "#555555",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 누보 추가 부담: 사무 2석\n· 가장 빠른 진행과 즉각 대응 가능\n· 다부서 협의 시 유리\n· 현장 이해도 확보 속도가 가장 빠름",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tNUKJ",
+                  "name": "note",
+                  "width": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 8,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gNbg8",
+                      "name": "noteLabel",
+                      "fill": "$accent-primary",
+                      "content": "핵심 차이",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ge8iD",
+                      "name": "noteText",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "구축 범위와 결과물은 3가지 안 모두 동일합니다. 차이는 현장 참여 빈도와 이에 따른 출장·체류 비용뿐입니다.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2Kk58",
+              "name": "footer",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bOJA0",
+                  "name": "fL",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "j1Kxi",
+                  "name": "fR",
+                  "fill": "$foreground-muted",
+                  "content": "07",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2paSa",
+      "x": 8080,
+      "y": 0,
+      "name": "SP5-옵션+협조",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "CbMsD",
+          "x": 959,
+          "y": 0,
+          "name": "spine",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "frame",
+          "id": "N5cgi",
+          "x": 0,
+          "y": 0,
+          "name": "leftPage",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            70,
+            50,
+            70,
+            70
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "8EZ5r",
+              "name": "secNum",
+              "fill": "$accent-primary",
+              "content": "07",
+              "fontFamily": "Geist Mono",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "a3VV1",
+              "name": "title",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "추가 옵션 및 운영비",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "gJHVa",
+              "name": "sub",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "1차 구축 이후 선택 가능한 확장 항목과 운영 단계의 월 비용입니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "WNZiZ",
+              "name": "card1",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$accent-light",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jNB1M",
+                  "name": "c1label",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "선택 옵션 — 외부 시황 연계 확장",
+                  "fontFamily": "Inter",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "XlqKq",
+                  "name": "c1price",
+                  "fill": "$accent-primary",
+                  "content": "35,000,000원",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "duV1V",
+                  "name": "c1meta",
+                  "fill": "$foreground-muted",
+                  "content": "부가세 별도 · 4~6주 추가",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "B0jth",
+                  "name": "c1desc",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "외부 시황 정보 연계, 구매 시점 비교, 외부 변수 반영 화면을 추가합니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8kDRu",
+              "name": "card2",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$accent-light",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dS58i",
+                  "name": "c2label",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "운영 지원 — 월 운영 및 개선",
+                  "fontFamily": "Inter",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "us3zq",
+                  "name": "c2price",
+                  "fill": "$accent-primary",
+                  "content": "2,000,000~12,000,000원/월",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "qpkDj",
+                  "name": "c2meta",
+                  "fill": "$foreground-muted",
+                  "content": "월 단위 · 강도별 별도 협의 · 부가세 별도",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OxjG1",
+                  "name": "c2desc",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "가벼운 유지보수부터 적극적인 개선·운영까지 누보의 사용 강도에 따라 범위와 비용을 합의합니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BLQvn",
+              "name": "card3",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$accent-dark",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HKEl1",
+                  "name": "c3label",
+                  "fill": "$surface-primary",
+                  "content": "별도 부담 항목",
+                  "fontFamily": "Inter",
+                  "fontSize": 19,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "YL5SB",
+                  "name": "c3desc",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "클라우드 서버 비용, AI 사용료, 외부 시황 데이터 구독료는 누보 측 별도 부담입니다. \n일반적으로 월 300만~1,000만원 수준에서 시작하며, 사용량과 연계 범위에 따라 변동됩니다.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "onJUd",
+              "name": "footerL",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O4dnU",
+                  "name": "footLtxt",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "k6Pt9",
+                  "name": "footLnum",
+                  "fill": "$foreground-muted",
+                  "content": "08",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pEMuu",
+          "x": 960,
+          "y": 0,
+          "name": "rightPage",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            70,
+            70,
+            70,
+            50
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "kS4yA",
+              "name": "secNum",
+              "fill": "$accent-primary",
+              "content": "08",
+              "fontFamily": "Geist Mono",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Paoy9",
+              "name": "title",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "누보 협조 사항 · 운영 원칙",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "sB7MX",
+              "name": "sub",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "안정적인 추진을 위해 누보 측 준비 사항과 공통 운영 원칙을 함께 정리했습니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "EYzdW",
+              "name": "spacer2",
+              "opacity": 0,
+              "width": "fill_container",
+              "height": 4
+            },
+            {
+              "type": "frame",
+              "id": "8TL0M",
+              "name": "columns",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oh00l",
+                  "name": "colLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "42F4z",
+                      "name": "colLhead",
+                      "fill": "$foreground-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "누보 측 협조 사항",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IR4sL",
+                      "name": "grp1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SX9Zw",
+                          "name": "lbl1",
+                          "fill": "$accent-primary",
+                          "content": "데이터/시스템",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eXEXf",
+                          "name": "items1",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 판매·구매·생산 계획 및 실적 샘플 데이터 (3~6개월치)\n· 지역·사업부·채널 코드표 및 변경 이력\n· 더존 테스트 계정 또는 시뮬레이션 환경\n· 보안·반출 정책 사전 정의",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EVYRX",
+                      "name": "grp2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BHiWm",
+                          "name": "lbl2",
+                          "fill": "$accent-primary",
+                          "content": "업무/검수",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zY90o",
+                          "name": "items2",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· S&OP 회의 보고 자료 및 판단 기준\n· 내부 진행 책임자 1명 지정\n· 단계별 리뷰 회의 참여자 지정\n· 중간 산출물 승인 절차 정의",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ePPV8",
+                  "name": "colRight",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "slDeS",
+                      "name": "colRhead",
+                      "fill": "$foreground-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "공통 운영 원칙",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MUMIb",
+                      "name": "grp3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iEv5G",
+                          "name": "lbl3",
+                          "fill": "$accent-primary",
+                          "content": "사람 승인",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IDzYE",
+                          "name": "items3",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 추천 결과는 사람이 승인 후 실행\n· 추천 사유와 사용 데이터를 화면에서 함께 확인\n· 배분·구매 판단은 비교 중심으로 제공",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t59XU",
+                      "name": "grp4",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bMNv0",
+                          "name": "lbl4",
+                          "fill": "$accent-primary",
+                          "content": "소유권 이관",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SVY03",
+                          "name": "items4",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 운영 자료와 설명 문서는 누보에 남도록 정리\n· 관리자 계정과 운영 권한 이전 가능 구조\n· 종료 또는 담당자 변경 시 인수인계 절차 포함",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KeReP",
+                      "name": "grp5",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bbfui",
+                          "name": "lbl5",
+                          "fill": "$accent-primary",
+                          "content": "비용 통제",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LbDLz",
+                          "name": "items5",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "· 서버·AI 사용료·외부 데이터 비용 상한선 설정\n· 업데이트 주기와 사용량 기준 사전 정의\n· 외부 시황 연계는 1차 성과 확인 후 확장",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aYCrm",
+              "name": "footerR",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "H76lq",
+                  "name": "footRtxt",
+                  "fill": "$foreground-muted",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "2zL5z",
+                  "name": "footRnum",
+                  "fill": "$foreground-muted",
+                  "content": "09",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "R39p8",
+      "x": 10100,
+      "y": 0,
+      "name": "SP6-AI필요성+후속",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "children": [
+        {
+          "type": "frame",
+          "id": "aVihN",
+          "name": "leftPage6",
+          "width": 960,
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            70,
+            50,
+            50,
+            70
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "e77B0",
+              "name": "secNum6L",
+              "fill": "$accent-primary",
+              "content": "09",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "B1KMZ",
+              "name": "secTitle6L",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "왜 누보에 AI 전담\n기능이 필요한가",
+              "lineHeight": 1.2,
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "D2mji",
+              "name": "secSub6L",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AI팀은 단순한 기술 조직이 아니라, 누보의 수익성 관리와 미래 사업 확장을 뒷받침하는 전략 실행 기능으로 볼 수 있습니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "iuf6Q",
+              "name": "sepL6",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "3tGaK",
+              "name": "grid6L",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7CjYI",
+                  "name": "box1",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent-light",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4vUE0",
+                      "name": "box1n",
+                      "fill": "$accent-primary",
+                      "content": "01",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uwf5A",
+                      "name": "sub1",
+                      "fill": "$accent-primary",
+                      "content": "판단 기준이 회사 안에 남습니다",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cA9zQ",
+                      "name": "box1t",
+                      "fill": "$foreground-primary",
+                      "content": "내부 역량 축적",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "McL1k",
+                      "name": "box1d",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "외부 업체가 화면만 만들어주는 구조가 아니라, 누보 내부에 데이터 기준과 판단 방식이 계속 쌓이는 구조를 만들 수 있습니다.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P6v0J",
+                  "name": "box2",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent-light",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vdWvS",
+                      "name": "box2n",
+                      "fill": "$accent-primary",
+                      "content": "02",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rMKTZ",
+                      "name": "sub2",
+                      "fill": "$accent-primary",
+                      "content": "제품·채널·국가별 손익 대응이 빨라집니다",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cZfTh",
+                      "name": "box2t",
+                      "fill": "$foreground-primary",
+                      "content": "수익성 관리 고도화",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QnKzz",
+                      "name": "box2d",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "무엇을 먼저 팔고, 어디에 배분하고, 언제 사는 것이 유리한지 더 빠르게 비교할 수 있어 수익성 관리 체계가 한 단계 올라갑니다.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N2z4v",
+                  "name": "box3",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent-light",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fr6NX",
+                      "name": "box3n",
+                      "fill": "$accent-primary",
+                      "content": "03",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KTnQP",
+                      "name": "sub3",
+                      "fill": "$accent-primary",
+                      "content": "해외 거래가 늘수록 전담 기능이 필요합니다",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JlFw9",
+                      "name": "box3t",
+                      "fill": "$foreground-primary",
+                      "content": "수출 확대 대응",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kZEhX",
+                      "name": "box3d",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "일본, 미국 등 해외 거래가 커질수록 가격, 공급, 일정 판단을 더 자주 해야 하므로 이를 지속적으로 관리할 내부 기능이 필요합니다.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ic3Ta",
+                  "name": "box4",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$accent-light",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ThrIA",
+                      "name": "box4n",
+                      "fill": "$accent-primary",
+                      "content": "04",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ucc7O",
+                      "name": "sub4",
+                      "fill": "$accent-primary",
+                      "content": "미래 성장 체계에 대한 설명력이 생깁니다",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LrPXS",
+                      "name": "box4t",
+                      "fill": "$foreground-primary",
+                      "content": "기업가치 관점",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vUz20",
+                      "name": "box4d",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "단순히 AI를 도입했다는 의미보다, 누보가 수익성 관리와 미래 사업 확장을 준비하고 있다는 점을 더 분명하게 설명할 수 있습니다.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "vMzk3",
+              "name": "summary",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "누보의 AI 전담 기능은 비용 절감만을 위한 조직이 아니라, 수익성 관리 체계 고도화, 수출 확대 대응, 미래 사업 실행력 내재화를 위한 전략 실행 기능으로 설계될 수 있습니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "c1pCl",
+              "name": "footerL6",
+              "width": "fill_container",
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4FHxI",
+                  "name": "fL6pluck",
+                  "fill": "$accent-primary",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "800",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "9YvFy",
+                  "name": "fL6page",
+                  "fill": "$foreground-muted",
+                  "content": "10",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "UmnMV",
+          "name": "spine6",
+          "fill": "$border-subtle",
+          "width": 1,
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "pwvUw",
+          "name": "rightPage6",
+          "width": 959,
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            70,
+            70,
+            50,
+            50
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "C45dY",
+              "name": "secNum6R",
+              "fill": "$accent-primary",
+              "content": "10",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "lHkzi",
+              "name": "secTitle6R",
+              "fill": "$foreground-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "누보에 적합한\n후속 프로젝트 10선",
+              "lineHeight": 1.2,
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "ivj7n",
+              "name": "secSub6R",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "1차 구축 이후, 누보의 현재 사업 구조를 바탕으로 현실적으로 검토할 수 있는 후보 과제들입니다.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "K7HvU",
+              "name": "sepR6",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "qQtqh",
+              "name": "bodyR6",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "skcwK",
+                  "name": "colL",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "4bFdB",
+                      "name": "colLlbl",
+                      "fill": "$accent-primary",
+                      "content": "구매 · 수출 · 생산",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "P6tx5",
+                      "name": "colLsep",
+                      "fill": "$accent-primary",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EjiWC",
+                      "name": "colLitems",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "0zJS2",
+                          "name": "i1",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jUDMr",
+                              "name": "i1n",
+                              "fill": "$accent-primary",
+                              "content": "01",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mYTzt",
+                              "name": "i1c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "sU6rl",
+                                  "name": "i1t",
+                                  "fill": "$foreground-primary",
+                                  "content": "원료 구매 시점 판단",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "zW1tW",
+                                  "name": "i1d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "환율, 물류, 국제 시황을 함께 보고 구매 적기 비교",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vH09s",
+                          "name": "i2",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "7uOCC",
+                              "name": "i2n",
+                              "fill": "$accent-primary",
+                              "content": "02",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0j3Yn",
+                              "name": "i2c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "E6s1P",
+                                  "name": "i2t",
+                                  "fill": "$foreground-primary",
+                                  "content": "수출 국가별 손익 관리",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "kvsFT",
+                                  "name": "i2d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "국가·거래처·제품별 매출과 마진을 한눈에 비교",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8iYcQ",
+                          "name": "i3",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "04dAb",
+                              "name": "i3n",
+                              "fill": "$accent-primary",
+                              "content": "03",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AZ987",
+                              "name": "i3c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "jjzXO",
+                                  "name": "i3t",
+                                  "fill": "$foreground-primary",
+                                  "content": "생산·재고 최적화",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "OkgsC",
+                                  "name": "i3d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "판매 계획과 출하 일정에 맞춰 생산량과 재고 조정",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rJ5hp",
+                          "name": "i4",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2Z6tw",
+                              "name": "i4n",
+                              "fill": "$accent-primary",
+                              "content": "04",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tqkvm",
+                              "name": "i4c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HHfI3",
+                                  "name": "i4t",
+                                  "fill": "$foreground-primary",
+                                  "content": "제품별 수익성 계산",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PSVzE",
+                                  "name": "i4d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "원가, 판매가, 물류비 반영해 제품별 마진 비교",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AVeEp",
+                          "name": "i5",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PydFz",
+                              "name": "i5n",
+                              "fill": "$accent-primary",
+                              "content": "05",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0vIrG",
+                              "name": "i5c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "I3JZ2",
+                                  "name": "i5t",
+                                  "fill": "$foreground-primary",
+                                  "content": "영업 견적 지원",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "uCdP4",
+                                  "name": "i5d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "작물, 지역, 시즌에 따라 견적 초안 빠르게 생성",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0gc8J",
+                  "name": "colR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VfoDL",
+                      "name": "colRlbl",
+                      "fill": "$accent-primary",
+                      "content": "운영 · 고객 · 경영",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "5XXR5",
+                      "name": "colRsep",
+                      "fill": "$accent-primary",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Jd9RH",
+                      "name": "colRitems",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2lakf",
+                          "name": "j6",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fSPJM",
+                              "name": "j6n",
+                              "fill": "$accent-primary",
+                              "content": "06",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PKDf4",
+                              "name": "j6c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vASl2",
+                                  "name": "j6t",
+                                  "fill": "$foreground-primary",
+                                  "content": "해외 거래 진행 관리",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QsFQr",
+                                  "name": "j6d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "계약, 발주, 생산, 선적 진행 상황을 한 번에 추적",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PXphD",
+                          "name": "j7",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ef1po",
+                              "name": "j7n",
+                              "fill": "$accent-primary",
+                              "content": "07",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "csEVT",
+                              "name": "j7c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dC65a",
+                                  "name": "j7t",
+                                  "fill": "$foreground-primary",
+                                  "content": "골프장 고객 관리",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3dBLr",
+                                  "name": "j7d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "골프장별 제품 사용 이력과 관리 일정 CRM",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EKzp9",
+                          "name": "j8",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "usonQ",
+                              "name": "j8n",
+                              "fill": "$accent-primary",
+                              "content": "08",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NLM32",
+                              "name": "j8c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "s09x1",
+                                  "name": "j8t",
+                                  "fill": "$foreground-primary",
+                                  "content": "홈가드닝 고객 운영",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "uaNzf",
+                                  "name": "j8d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "가정원예 고객 추천, 정기 구매, 리뷰 관리 지원",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Vjp55",
+                          "name": "j9",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vusxE",
+                              "name": "j9n",
+                              "fill": "$accent-primary",
+                              "content": "09",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "3Jly6",
+                              "name": "j9c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xuE0W",
+                                  "name": "j9t",
+                                  "fill": "$foreground-primary",
+                                  "content": "시험 데이터 정리 및 재사용",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NNEnA",
+                                  "name": "j9d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "시험 포장과 작물 반응 데이터를 제품 개발에 활용",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PVC9u",
+                          "name": "j10",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Hr8ON",
+                              "name": "j10n",
+                              "fill": "$accent-primary",
+                              "content": "10",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NJVEN",
+                              "name": "j10c",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DHUCl",
+                                  "name": "j10t",
+                                  "fill": "$foreground-primary",
+                                  "content": "경영 현황 한눈에 보기",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 17,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "v4WQd",
+                                  "name": "j10d",
+                                  "fill": "$foreground-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "비료, 수출, 골프장, 원예 사업 통합 대시보드",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c9itB",
+              "name": "footerR6",
+              "width": "fill_container",
+              "padding": [
+                8,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i9h2s",
+                  "name": "fR6pluck",
+                  "fill": "$accent-primary",
+                  "content": "PLUCK",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "800",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "AtJ5m",
+                  "name": "fR6page",
+                  "fill": "$foreground-muted",
+                  "content": "11",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "N8pnf",
+      "x": 12120,
+      "y": 0,
+      "name": "SP7-맺음",
+      "clip": true,
+      "width": 1920,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "children": [
+        {
+          "type": "frame",
+          "id": "3hkFJ",
+          "name": "leftPage7",
+          "width": 960,
+          "height": "fill_container",
+          "fill": "$accent-primary",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            100,
+            70,
+            60,
+            70
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2NHrT",
+              "name": "pluckLogo",
+              "fill": "#FFFFFF",
+              "content": "PLUCK",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 80,
+              "fontWeight": "900",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "NgPAO",
+              "name": "tagline7",
+              "fill": "#FFFFFFAA",
+              "textGrowth": "fixed-width",
+              "width": 500,
+              "content": "Igniting your ideas with fast,\nreliable development",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "cwakq",
+              "name": "sepLogo",
+              "fill": "#FFFFFF66",
+              "width": 50,
+              "height": 2
+            },
+            {
+              "type": "frame",
+              "id": "P9jtx",
+              "name": "contactBlock",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cqAcS",
+                  "name": "contactA",
+                  "fill": "#FFFFFF88",
+                  "content": "hello@pluck.co.kr",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ngI07",
+                  "name": "contactB",
+                  "fill": "#FFFFFF88",
+                  "content": "황성안 · 심재형",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "7ZP1y",
+                  "name": "contactC",
+                  "fill": "#FFFFFF66",
+                  "content": "2026.04.27",
+                  "textAlign": "center",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "4qdwY",
+          "name": "spine7",
+          "fill": "#2A4ABD",
+          "width": 1,
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "nhMHn",
+          "name": "rightPage7",
+          "width": 959,
+          "height": "fill_container",
+          "fill": "$accent-dark",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            70,
+            60,
+            70
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2XCLh",
+              "name": "thankYou",
+              "fill": "#FFFFFF",
+              "content": "감사합니다",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 52,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "IOXWY",
+              "name": "closingMsg",
+              "fill": "#AAAAAA",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "이번 1차 구축의 목적은\n흩어진 자료를 한곳에서 보고,\n판매·구매·생산 판단을 더 빠르고\n일관되게 할 수 있게 만드는 것입니다.\n\n이후에는 수출, 생산, 고객 관리,\n추가 자동화 영역으로 자연스럽게\n확장할 수 있습니다.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "ZCU5Y",
+              "name": "closingSep",
+              "fill": "#444444",
+              "width": 50,
+              "height": 2
+            },
+            {
+              "type": "frame",
+              "id": "3JTS1",
+              "name": "closingCols",
+              "gap": 60,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MIBGM",
+                  "name": "closingColL",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Tiz3O",
+                      "name": "clLbl1",
+                      "fill": "$accent-primary",
+                      "content": "1차 구축 초점",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "872JV",
+                      "name": "clDsc1",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "판매, 구매, 생산, 배분 판단을\n하나의 흐름으로 연결해\n회의와 운영에 바로 쓰는 화면 구축",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9w4zL",
+                  "name": "closingColR",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "adfYh",
+                      "name": "clLbl2",
+                      "fill": "$accent-primary",
+                      "content": "확장 가능 영역",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "u7EqO",
+                      "name": "clDsc2",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "외부 정보 연계, 글로벌 수출,\n고객 관리, 반복 업무 자동화까지\n단계적으로 확장 가능",
+                      "lineHeight": 1.4,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-dark": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "accent-primary": {
+      "type": "color",
+      "value": "#3B5CE0"
+    },
+    "border-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#E2E4EB"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#999999"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#555555"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#F5F6FA"
+    },
+    "accent-light": {
+      "type": "color",
+      "value": "#EEF1FB"
+    }
+  }
+}

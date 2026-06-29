@@ -5,7 +5,14 @@ import { slides } from "@/lib/slides";
 
 export default function SlideViewer() {
   const [index, setIndex] = useState(0);
+  const [printMode, setPrintMode] = useState(false);
   const total = slides.length;
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    setPrintMode(params.get("print") === "1");
+  }, []);
 
   const go = useCallback(
     (next: number) => {
@@ -21,6 +28,7 @@ export default function SlideViewer() {
 
   // 키보드 네비게이션
   useEffect(() => {
+    if (printMode) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight" || e.key === "PageDown") go(index + 1);
       if (e.key === "ArrowLeft" || e.key === "PageUp") go(index - 1);
@@ -29,15 +37,36 @@ export default function SlideViewer() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [index, total, go]);
+  }, [index, total, go, printMode]);
 
   // 해시 딥링크
   useEffect(() => {
+    if (printMode) return;
     if (typeof window === "undefined") return;
     const hash = window.location.hash.replace("#", "");
     const n = parseInt(hash, 10);
     if (!isNaN(n) && n >= 1 && n <= total) setIndex(n - 1);
-  }, [total]);
+  }, [total, printMode]);
+
+  if (printMode) {
+    return (
+      <main className="px-4 sm:px-6 lg:px-8 py-8">
+        <div className="mx-auto space-y-6" style={{ maxWidth: "1100px" }}>
+          {slides.map((slide, i) => {
+            const Current = slide.component;
+            return (
+              <section key={slide.title} className="print:block">
+                <div className="text-[10px] tracking-[0.22em] uppercase font-extrabold text-brand mb-3">
+                  {slide.section}
+                </div>
+                <Current />
+              </section>
+            );
+          })}
+        </div>
+      </main>
+    );
+  }
 
   const Current = slides[index].component;
   const meta = slides[index];
